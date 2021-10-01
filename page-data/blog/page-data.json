@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-blog-jsx",
+    "componentChunkName": "component---src-pages-blog-tsx",
     "path": "/blog/",
     "result": {"pageContext":{"language":"en","i18n":{"language":"en","languages":["en","fa"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":false,"originalPath":"/blog/","path":"/blog/"}}},
     "staticQueryHashes": []}
