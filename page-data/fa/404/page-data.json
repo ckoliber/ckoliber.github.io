@@ -1,6 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-404-tsx",
-    "path": "/fa/404/",
-    "result": {"data":{"locales":{"edges":[{"node":{"ns":"footer","data":"{\"copyright\":\"کپی‌‌رایت 2021 KoLiBer\",\"author\":\"توسط KoLiBer\"}","language":"fa"}},{"node":{"ns":"header","data":"{\"home\":\"خانه\",\"about\":\"درباره\",\"resume\":\"رزومه\",\"projects\":\"پروژه‌ ها\",\"books\":\"کتاب ها\",\"blog\":\"وبلاگ\"}","language":"fa"}},{"node":{"ns":"translation","data":"{\"not_found\":\"صفحه مورد نظر یافت نشد!\",\"iam_title\":\"من محمد حسین نعمتی هستم.\",\"iam_caption\":\"یک دانشجوی علوم کامپیوتر و توسعه دهنده FullStack که عمدتا به مدل سازی قوانین طبیعت با کامپیوتر علاقه دارد\",\"goto_home\":\"رفتن به خانه\",\"goto_blog\":\"رفتن به وبلاگ\",\"show_more\":\"نمایش بیشتر\",\"about\":\"درباره من\",\"resume\":\"رزومه\",\"educations\":\"تحصیلات\",\"courses\":\"دوره ها\",\"works\":\"همکاری ها\",\"projects\":\"پروژه ها\",\"books\":\"کتاب ها\",\"blog\":\"وبلاگ\"}","language":"fa"}}]}},"pageContext":{"matchPath":"/fa/*","language":"fa","i18n":{"language":"fa","languages":["en","fa"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/404/","path":"fa/404/"}}},
-    "staticQueryHashes": ["143701507"],
-    "matchPath": "/fa/*"}
