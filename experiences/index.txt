@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/3d2690b8888b7872.css","style",{"crossOrigin":""}]
-0:["ehx1z6xqB3BijUjmbXQ_7",[[["",{"children":["experiences",{"children":["__PAGE__",{}]}],"header":["__DEFAULT__",{}],"footer":["__DEFAULT__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3d2690b8888b7872.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["hZ6N41AfGBy5C2qtNZUTa",[[["",{"children":["experiences",{"children":["__PAGE__",{}]}],"header":["__DEFAULT__",{}],"footer":["__DEFAULT__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3d2690b8888b7872.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[3170,[],"NotFoundBoundary"]
 5:I[3604,["990","static/chunks/990-e1b7c10f18bb7341.js","185","static/chunks/app/layout-40365129ad6e0b9b.js"],""]
 6:I[3038,["990","static/chunks/990-e1b7c10f18bb7341.js","326","static/chunks/326-9948ddbffa9d4572.js","649","static/chunks/649-6f09c060aa32241a.js","220","static/chunks/app/experiences/page-613f3e4e5b54a83a.js"],""]
@@ -26,7 +26,7 @@ d:E{"digest":"NEXT_NOT_FOUND"}
 1a:["$","$L8",null,{"className":"my-4 grid grid-cols-3","illuminator":500,"type":"hftagon","size":"small","children":["$undefined",["$","div",null,{"className":"p-4 col-span-3 undefined","children":[["$","div",null,{"className":"flex flex-col md:flex-row justify-between md:items-center","children":[["$","$L6",null,{"as":"h3","children":"Self Employed"}],["$","$L6",null,{"as":"h6","children":"Dec 2013 -- Aug 2018"}]]}],["$","div",null,{"className":"flex flex-col md:flex-row justify-between md:items-center","children":[["$","$L6",null,{"as":"h5","className":"secondary","children":"Full-stack Developer"}],["$","$L6",null,{"as":"h6","className":"secondary","children":"Tehran, Iran"}]]}],["$","$L8",null,{"as":"hr","className":"my-2"}],["$","ul",null,{"children":["$","$L10",null,{"manager":"stagger","children":[["$","li","0",{"children":["$L44","$undefined"]}],["$","li","1",{"children":["$L45","$undefined"]}],["$","li","2",{"children":["$L46","$undefined"]}],["$","li","3",{"children":["$L47","$undefined"]}],["$","li","4",{"children":["$L48","$undefined"]}]]}]}]]}]]}]
 c:null
 f:null
-1c:["$","p",null,{"children":["Automatic speech recognition in the air traffic control domain using ",["$","strong",null,{"children":"Wav2Vec-2"}],", ",["$","strong",null,{"children":"HuBERT"}],", ",["$","strong",null,{"children":"Whisper"}],["$","br",null,{}],"\n","Under the supervision of ",["$","strong",null,{"children":"Prof. Bagher Babaali"}]]}]
+1c:["$","p",null,{"children":["Deep learning based seizure detection from EEG and ECG signals using biosignal transformers and self-supervised learning methods\nUnder the supervision of ",["$","strong",null,{"children":"Prof. Bagher Babaali"}]]}]
 1d:["$","p",null,{"children":"Teaching memory management in C, Object-Oriented paradigm in C (OOC)"}]
 1e:["$","p",null,{"children":"Teaching basics of computer graphics and OpenGL programs in C"}]
 1f:["$","p",null,{"children":"Graded and provided homework feedback for mentored students"}]

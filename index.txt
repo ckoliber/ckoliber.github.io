@@ -1,9 +1,9 @@
 1:HL["/_next/static/css/3d2690b8888b7872.css","style",{"crossOrigin":""}]
-0:["ehx1z6xqB3BijUjmbXQ_7",[[["",{"footer":["__PAGE__",{}],"header":["page$",{"children":["__PAGE__",{}]}],"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3d2690b8888b7872.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["hZ6N41AfGBy5C2qtNZUTa",[[["",{"footer":["__PAGE__",{}],"header":["page$",{"children":["__PAGE__",{}]}],"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3d2690b8888b7872.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[3170,[],"NotFoundBoundary"]
 5:I[3604,["990","static/chunks/990-e1b7c10f18bb7341.js","185","static/chunks/app/layout-40365129ad6e0b9b.js"],""]
 6:I[3038,["990","static/chunks/990-e1b7c10f18bb7341.js","326","static/chunks/326-9948ddbffa9d4572.js","918","static/chunks/app/@footer/page-6a9cd40f9d0cf781.js"],""]
-7:I[8326,["990","static/chunks/990-e1b7c10f18bb7341.js","326","static/chunks/326-9948ddbffa9d4572.js","918","static/chunks/app/@footer/page-6a9cd40f9d0cf781.js"],""]
+7:I[8326,["676","static/chunks/870fdd6f-2572863b9a66abee.js","990","static/chunks/990-e1b7c10f18bb7341.js","326","static/chunks/326-9948ddbffa9d4572.js","178","static/chunks/178-e084f3e22be52100.js","490","static/chunks/app/@header/page-eea164faf194d913.js"],""]
 8:I[8895,["676","static/chunks/870fdd6f-2572863b9a66abee.js","990","static/chunks/990-e1b7c10f18bb7341.js","326","static/chunks/326-9948ddbffa9d4572.js","178","static/chunks/178-e084f3e22be52100.js","490","static/chunks/app/@header/page-eea164faf194d913.js"],""]
 9:I[6954,[],""]
 a:I[7264,[],""]
@@ -25,7 +25,7 @@ f:"$L10"
 1a:["$","$L8",null,{"className":"my-4 grid grid-cols-3","illuminator":500,"type":"hftagon","size":"small","children":[["$","div",null,{"className":"col-span-3 md:col-span-1","children":["$","$L12",null,{"alt":"Personal","src":"/assets/ccna.png","width":1000,"height":1000}]}],["$","div",null,{"className":"p-4 col-span-3 md:col-span-2","children":[["$","div",null,{"className":"flex flex-col md:flex-row justify-between md:items-center","children":[["$","$L6",null,{"as":"h3","children":"Cisco Certified Network Associate (CCNA)"}],["$","$L6",null,{"as":"h6","children":"Nov 2016"}]]}],["$","div",null,{"className":"flex flex-col md:flex-row justify-between md:items-center","children":[["$","$L6",null,{"as":"h5","className":"secondary","children":"Tehran Institute of Technology"}],"$undefined"]}],"$undefined",["$","ul",null,{"children":["$","$L1d",null,{"manager":"stagger","children":"$undefined"}]}]]}]]}]
 c:null
 10:null
-1e:["$","p",null,{"children":"Thesis: Automatic speech recognition in the air traffic control domain"}]
+1e:["$","p",null,{"children":"Thesis: Deep learning based seizure detection"}]
 1f:["$","p",null,{"children":"Total GPA: 3.82/4"}]
 20:["$","p",null,{"children":"Last two years GPA: 3.46/4"}]
 21:["$","p",null,{"children":"Total GPA: 3.12/4"}]
