@@ -22,15 +22,15 @@ import Text from "@/components/Text";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://mhmnemati.com"),
+    metadataBase: new URL("https://ckoliber.com"),
     title: "Mohammad Hossein Nemati",
     description: "Personal website",
     icons: {
         icon: "/images/favicon.ico",
     },
     keywords: [
-        "mhmnemati",
-        "MHMNemati",
+        "ckoliber",
+        "CKoLiBer",
         "Nemati",
         "blog",
         "personal",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary",
         title: "Mohammad Hossein Nemati",
-        creator: "@mhmnemati",
+        creator: "@ckoliber",
         description: "Personal website",
     },
 };
@@ -125,7 +125,7 @@ function Footer() {
             <span>
                 <Link
                     className="text-inherit m-4"
-                    href={`mailto:mhmnemati@gmail.com`}
+                    href={`mailto:ckoliber@gmail.com`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -133,7 +133,7 @@ function Footer() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://www.linkedin.com/in/mhmnemati/`}
+                    href={`https://www.linkedin.com/in/ckoliber/`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -141,7 +141,7 @@ function Footer() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://github.com/mhmnemati`}
+                    href={`https://github.com/ckoliber`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -158,15 +158,15 @@ function Footer() {
             </span>
             <br />
             <Text manager="decipher" easing="outSine">
-                © Copyright 2024 MHMNemati •{" "}
+                © Copyright 2024 CKoLiBer •{" "}
                 <Link
-                    href="https://github.com/mhmnemati/mhmnemati.github.io"
+                    href="https://github.com/ckoliber/ckoliber.github.io"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <FontAwesomeIcon icon={faReact} />
                 </Link>{" "}
-                by MHMNemati
+                by CKoLiBer
             </Text>
         </footer>
     );

@@ -304,7 +304,7 @@ function Teaching() {
                             programming in C (OOC){" "}
                             <Link
                                 className="ml-2"
-                                href="https://github.com/mhmnemati/ooc_lecture"
+                                href="https://github.com/ckoliber/ooc_lecture"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -316,7 +316,7 @@ function Teaching() {
                             graphics and OpenGL programming in C{" "}
                             <Link
                                 className="ml-2"
-                                href="https://github.com/mhmnemati/opengl"
+                                href="https://github.com/ckoliber/opengl"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -343,7 +343,7 @@ function Teaching() {
                             students
                             <Link
                                 className="ml-2"
-                                href="https://github.com/mhmnemati/Phy97Sources"
+                                href="https://github.com/ckoliber/Phy97Sources"
                                 target="_blank"
                                 rel="noreferrer"
                             >
