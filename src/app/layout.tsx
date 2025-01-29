@@ -22,7 +22,7 @@ import Text from "@/components/Text";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://ckoliber.com"),
+    metadataBase: new URL("https://ckoliber.dev"),
     title: "Mohammad Hossein Nemati",
     description: "Personal website",
     icons: {
