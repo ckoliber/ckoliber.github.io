@@ -439,7 +439,7 @@ function Skills() {
                         <b>Programming Languages</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             C/C++, C#, Java, JavaScript, TypeScript, Python,
-                            MATLAB, Erlang
+                            MATLAB, Erlang, Golang
                         </i>
                     </div>
                 </li>
@@ -484,7 +484,7 @@ function Skills() {
                         <b>High Performance Computing</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             Slurm, SunGridEngine, Rocks Cluster, Nvidia Enroot,
-                            Nvidia Pyxis, Singularity
+                            Nvidia Pyxis, Singularity, Apptainer
                         </i>
                     </div>
                 </li>
@@ -492,8 +492,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Infrastructure & Cloud</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Terraform, Ansible, Packer, ESXi, OpenStack, Hetzner
-                            Cloud, Amazon Web Services
+                            Terragrunt, Terraform, Ansible, Packer, ESXi,
+                            OpenStack, Hetzner Cloud, Amazon Web Services
                         </i>
                     </div>
                 </li>
@@ -501,8 +501,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Monitoring & Alerting</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Grafana, GrafanaAgent, Promtail, Prometheus,
-                            OpenTelemetry, Loki, Mimir, Tempo
+                            Grafana, Promtail, Prometheus, OpenTelemetry, Loki,
+                            Mimir, Tempo, Alloy
                         </i>
                     </div>
                 </li>
