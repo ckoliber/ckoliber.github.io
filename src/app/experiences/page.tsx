@@ -61,7 +61,7 @@ function Work() {
                     </ul>
                 </Card>
                 <Card
-                    date="Feb 2024 -- June 2024"
+                    date="Jan 2024 -- Sep 2024"
                     title="Smartech"
                     subtitle="Senior DevOps Engineer"
                     location="Tehran, Iran"
