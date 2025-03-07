@@ -439,7 +439,7 @@ function Skills() {
                         <b>Programming Languages</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             C/C++, C#, Java, JavaScript, TypeScript, Python,
-                            MATLAB, Erlang, Golang
+                            Erlang, Golang, MATLAB
                         </i>
                     </div>
                 </li>
@@ -465,8 +465,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Storage & Database</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            PostgreSQL, MSSQL, MySQL, SQLite, MongoDB,
-                            Cassandra/ScyllaDB, RabbitMQ, Kafka, Redis, Minio
+                            PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB,
+                            ClickHouse, RabbitMQ, Kafka, Redis, Minio
                         </i>
                     </div>
                 </li>
@@ -474,8 +474,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Container Orchestration</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Docker, DockerSwarm, DockerCompose, Kubernetes (K3s,
-                            RKE2, EKS), Helm, Nomad
+                            Podman, Docker, DockerCompose, DockerSwarm,
+                            Kubernetes (K3s, RKE2, EKS), Helm, Nomad
                         </i>
                     </div>
                 </li>
@@ -501,8 +501,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Monitoring & Alerting</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Grafana, Promtail, Prometheus, OpenTelemetry, Loki,
-                            Mimir, Tempo, Alloy
+                            Grafana, GrafanaOnCall, Prometheus, Promtail,
+                            OpenTelemetry, Loki, Mimir, Tempo, Alloy
                         </i>
                     </div>
                 </li>

@@ -45,17 +45,18 @@ function Published() {
                         </li>
                         <li>
                             <a
-                                href="https://github.com/cktf/terraform-aws-wireguard"
+                                href="https://github.com/cktf/terraform-module-ansible"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <b>terraform-aws-wireguard</b>
+                                <b>terraform-module-ansible</b>
                             </a>
-                            : Terraform module for Provisioning Wireguard VPN
-                            instance and manage users on AWS cloud
+                            : Terraform module to generate dynamic inventory
+                            from SSH/WinRM connections and run ansible-playbook
+                            over that
                             <Link
                                 className="ml-2"
-                                href="https://github.com/cktf/terraform-aws-wireguard"
+                                href="https://github.com/cktf/terraform-module-ansible"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -75,6 +76,25 @@ function Published() {
                             <Link
                                 className="ml-2"
                                 href="https://github.com/cktf/terraform-hcloud-rke"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faExternalLink} />
+                            </Link>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/cktf/terraform-hcloud-cluster"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <b>terraform-hcloud-cluster</b>
+                            </a>
+                            : General purpose cluster provisioner on hetzner
+                            cloud, for configuring Swarm, Kubernetes, Nomad, etc
+                            <Link
+                                className="ml-2"
+                                href="https://github.com/cktf/terraform-hcloud-cluster"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -113,6 +133,25 @@ function Published() {
                             <Link
                                 className="ml-2"
                                 href="https://github.com/cktf/terraform-hcloud-wireguard"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon icon={faExternalLink} />
+                            </Link>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/cktf/terraform-aws-wireguard"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <b>terraform-aws-wireguard</b>
+                            </a>
+                            : Terraform module for Provisioning Wireguard VPN
+                            instance and manage users on AWS cloud
+                            <Link
+                                className="ml-2"
+                                href="https://github.com/cktf/terraform-aws-wireguard"
                                 target="_blank"
                                 rel="noreferrer"
                             >

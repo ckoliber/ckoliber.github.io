@@ -23,40 +23,54 @@ function Work() {
                 >
                     <ul>
                         <li>
-                            Refactored codebases across 10+ projects and set up
-                            CI pipelines, reducing deployment times by 70%
+                            Reduced infrastructure costs by migrating workloads
+                            to ARM64-based servers on Hetzner Cloud
                         </li>
                         <li>
-                            Migrated 10+ services to Docker Swarm cluster on
-                            Hetzner Cloud, improving resource efficiency by 25%
+                            Designed scalable Swarm clusters for staging and
+                            production using Terragrunt, Terraform, and Ansible
                         </li>
                         <li>
-                            Clustered PostgreSQL and automated backups, ensuring
-                            100% data integrity during zero-downtime migration
+                            Refactored codebases of 10+ projects to improve
+                            deployment stability and maintainability (
+                            <b>12-Factor</b>)
                         </li>
                         <li>
-                            Automated infrastructure provisioning with Terraform
-                            and Ansible across 5+ environments
+                            Migrated critical services to Docker Swarm to
+                            optimize resource usage and simplify operations
                         </li>
                         <li>
-                            Deployed 5+ self-hosted services, reducing
-                            third-party dependencies by 40%
+                            Set up a PostgreSQL cluster with automated backups
+                            and zero-downtime migration procedures using
+                            pgbackrest
                         </li>
                         <li>
-                            Established monitoring with Grafana stack, improving
-                            incident response by 80% with 10+ custom dashboards
+                            Automated provisioning across multiple environments
+                            using Terraform and Ansible
                         </li>
                         <li>
-                            Standardized CI/CD pipelines, reducing build times
-                            to under 1 minute across 10+ repositories
+                            Deployed self-hosted services like Sentry and GitLab
+                            to reduce reliance on external SaaS providers
                         </li>
                         <li>
-                            Managed multi-cloud setup (Hetzner & AWS), cutting
-                            operational costs by 20%
+                            Built centralized monitoring with Grafana, Loki, and
+                            Prometheus, and created custom dashboards
                         </li>
                         <li>
-                            Implemented review apps, boosting developer
-                            productivity by 40%
+                            Configured Grafana OnCall with escalation policies
+                            and on-call schedules for incident management
+                        </li>
+                        <li>
+                            Standardized CI/CD pipelines to improve build and
+                            deployment speed across all projects
+                        </li>
+                        <li>
+                            Maintained a multi-cloud setup on Hetzner and AWS to
+                            balance availability and infrastructure costs
+                        </li>
+                        <li>
+                            Implemented review apps to provide preview
+                            environments for testing and QA
                         </li>
                     </ul>
                 </Card>
@@ -68,27 +82,44 @@ function Work() {
                 >
                     <ul>
                         <li>
-                            Standardized CI/CD templates across 50+
-                            repositories, reducing deployment times by 40%
+                            Standardized CI/CD templates across 50+ repositories
+                            to unify deployment processes
                         </li>
                         <li>
-                            Configured auto-scaling Kubernetes clusters with
-                            Terraform for 10+ Event Processor apps, optimizing
-                            Kafka load handling
+                            Deployed and managed Kafka clusters using Ansible,
+                            ensuring reliable event streaming
                         </li>
                         <li>
-                            Developed Kubernetes manifests for 20+ projects and
-                            automated deployment of 40+ services via ArgoCD
+                            Operated ClickHouse clusters with 50TB+ of
+                            time-series data for real-time analytics
                         </li>
                         <li>
-                            Automated server management with Ansible for 50+
-                            servers, including Firewall, User Management, and
-                            Minio clusters
+                            Automated ClickHouse backups and handled production
+                            schema migrations
                         </li>
                         <li>
-                            Managed 500+ VMs and 50TB+ of warm data across
-                            services like Elasticsearch, ClickHouse, ScyllaDB,
-                            and Kafka
+                            Built an automatically scalable RKE2 cluster on
+                            Hetzner with Terraform and Ansible
+                        </li>
+                        <li>
+                            Integrated Cluster Autoscaler to dynamically scale
+                            nodes based on workload
+                        </li>
+                        <li>
+                            Developed a Custom Pod Autoscaler (CPA) to scale
+                            workers based on Kafka consumer lag
+                        </li>
+                        <li>
+                            Created Kubernetes manifests for 20+ microservices
+                            and managed deployments via ArgoCD
+                        </li>
+                        <li>
+                            Automated server management for 50+ nodes with
+                            Ansible, covering firewall and user setups
+                        </li>
+                        <li>
+                            Maintained 100+ VMs and ensured availability of
+                            Kafka, ClickHouse, and ScyllaDB clusters
                         </li>
                     </ul>
                 </Card>
@@ -114,8 +145,8 @@ function Work() {
                             created 5+ resource-specific queues for jobs
                         </li>
                         <li>
-                            Deployed a Grafana monitoring stack, improving
-                            resource utilization by 30%
+                            Deployed a Grafana monitoring stack to monitor
+                            cluster resources and workloads
                         </li>
                     </ul>
                 </Card>
@@ -178,8 +209,8 @@ function Work() {
                     <ul>
                         <li>
                             Maintained and refactored the Managed-Funds System
-                            (MFD), implementing backend APIs with Loopback.io,
-                            Node.js, TypeScript, and PostgreSQL
+                            (MFD) using Loopback.io, Node.js, TypeScript, and
+                            PostgreSQL
                         </li>
                         <li>
                             Replaced Process360 with ProcessMaker as the BPMS
@@ -192,9 +223,8 @@ function Work() {
                         </li>
                         <li>
                             Developed a food-shopping UI for the Farmeal project
-                            using ReactJS, MaterialUI, and TypeScript, and
-                            integrated with backend GraphQL APIs using Apollo
-                            Client
+                            using ReactJS, MaterialUI, Apollo Client, and
+                            TypeScript
                         </li>
                         <li>
                             Set up CI/CD pipelines using GitLab CI and Docker
