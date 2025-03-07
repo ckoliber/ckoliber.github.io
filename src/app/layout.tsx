@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
     keywords: [
         "ckoliber",
-        "CKoLiBer",
+        "KoLiBer",
         "Nemati",
         "blog",
         "personal",
@@ -149,7 +149,7 @@ function Footer() {
             </span>
             <br />
             <Text manager="decipher" easing="outSine">
-                © Copyright 2024 CKoLiBer •{" "}
+                © Copyright 2024 •{" "}
                 <Link
                     href="https://github.com/ckoliber/ckoliber.github.io"
                     target="_blank"
@@ -157,7 +157,7 @@ function Footer() {
                 >
                     <FontAwesomeIcon icon={faReact} />
                 </Link>{" "}
-                by CKoLiBer
+                by KoLiBer
             </Text>
         </footer>
     );

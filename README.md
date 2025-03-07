@@ -1,6 +1,6 @@
-# CKoLiBer
+# KoLiBer
 
-CKoLiBer is a Next.JS application which is the source code of my personal website.
+KoLiBer is a Next.JS application which is the source code of my personal website.
 
 ## Installation
 
