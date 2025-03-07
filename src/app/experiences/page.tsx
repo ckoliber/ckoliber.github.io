@@ -41,8 +41,7 @@ function Work() {
                         </li>
                         <li>
                             Set up a PostgreSQL cluster with automated backups
-                            and zero-downtime migration procedures using
-                            pgbackrest
+                            and zero-downtime migration procedures
                         </li>
                         <li>
                             Automated provisioning across multiple environments
@@ -131,9 +130,8 @@ function Work() {
                 >
                     <ul>
                         <li>
-                            Provisioned a 20+ node HPC cluster using Terraform
-                            and Ansible; set up Slurm with Singularity and
-                            Nvidia Enroot
+                            Provisioned a 20+ node HPC cluster using Terraform,
+                            Ansible, Slurm, Singularity, and Nvidia Enroot
                         </li>
                         <li>
                             Optimized GPU workloads for 10+ researchers by

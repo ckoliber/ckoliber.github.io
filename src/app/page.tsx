@@ -12,7 +12,6 @@ import {
     faLinkedin,
     faGithub,
     faGitlab,
-    faSkype,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
@@ -55,14 +54,6 @@ function Home() {
                     rel="noreferrer"
                 >
                     <FontAwesomeIcon icon={faGitlab} size="2x" />
-                </Link>
-                <Link
-                    className="text-inherit m-4"
-                    href="https://join.skype.com/invite/fsPMhjWNv1rf"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FontAwesomeIcon icon={faSkype} size="2x" />
                 </Link>
             </span>
             <span>
@@ -213,18 +204,6 @@ function About() {
                                         icon={faEnvelope}
                                     />
                                     ckoliber@gmail.com
-                                </Link>
-                                <br />
-                                <Link
-                                    href="https://join.skype.com/invite/fsPMhjWNv1rf"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <FontAwesomeIcon
-                                        className="mr-2"
-                                        icon={faSkype}
-                                    />
-                                    skype
                                 </Link>
                             </div>
                             <div>

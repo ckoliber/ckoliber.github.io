@@ -10,7 +10,6 @@ import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedin,
     faGithub,
-    faSkype,
     faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -146,14 +145,6 @@ function Footer() {
                     rel="noreferrer"
                 >
                     <FontAwesomeIcon icon={faGithub} size="2x" />
-                </Link>
-                <Link
-                    className="text-inherit m-4"
-                    href="https://join.skype.com/invite/fsPMhjWNv1rf"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FontAwesomeIcon icon={faSkype} size="2x" />
                 </Link>
             </span>
             <br />
