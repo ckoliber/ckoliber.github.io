@@ -17,7 +17,7 @@
         "@fortawesome/react-fontawesome": "^0.2.0",
         "autoprefixer": "^10.4.19",
         "next": "^14.2.3",
-        "next-mdx-remote": "^4.4.1",
+        "next-mdx-remote": "^5.0.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "react-headroom": "^3.2.1",
