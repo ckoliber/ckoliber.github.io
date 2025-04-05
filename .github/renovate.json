@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:recommended"],
+    "dependencyDashboard": true,
+    "enabledManagers": ["npm"],
+    "packageRules": [
+        {
+            "matchPackageNames": ["arwes", "@arwes/**"],
+            "enabled": false
+        }
+    ]
+}
