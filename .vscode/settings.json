@@ -8,6 +8,7 @@
     "editor.fontLigatures": true,
     "editor.detectIndentation": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
     "[tex]": {
         "editor.defaultFormatter": "James-Yu.latex-workshop"
     },
