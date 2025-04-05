@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "@arwes/animated": "1.0.0-alpha.23",
-        "@arwes/animator": "1.0.0-alpha.23",
+        "@arwes/animator": "1.0.0-next.25020502",
         "@arwes/bgs": "1.0.0-alpha.23",
         "@arwes/bleeps": "1.0.0-alpha.23",
         "@arwes/core": "1.0.0-alpha.23",
