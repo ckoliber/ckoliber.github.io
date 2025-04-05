@@ -206,8 +206,8 @@ function Frame(props: FrameProps) {
     const { FrameComponent, frameProps, frameClip } = createFrame(type, size);
 
     const bleeps = useBleeps();
-    const svgRef = useRef<SVGSVGElement | null>(null);
-    const { onRender } = useFrameSVGAssemblingAnimation(svgRef);
+    const svgRef = useRef<SVGSVGElement>(null);
+    const { onRender } = useFrameSVGAssemblingAnimation(svgRef as any);
 
     if (!!!props.children) {
         return (
