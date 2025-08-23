@@ -55,8 +55,7 @@ export const metadata: Metadata = {
 const links = [
     ["Home", "/#home"],
     ["About", "/#about"],
-    ["Resume", "/#resume"],
-    ["Experiences", "/experiences"],
+    ["CV", "/cv"],
     ["Projects", "/projects"],
     ["Blog", "/blog"],
 ];
