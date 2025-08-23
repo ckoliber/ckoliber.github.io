@@ -13,7 +13,7 @@ import Frame from "./Frame";
 export interface ModalProps {
     className?: string;
     children: React.ReactNode;
-    button: React.ReactNode;
+    button: React.ReactNode | ((onClick: () => void) => React.ReactNode);
 }
 
 export default function Component(props: ModalProps) {
@@ -36,24 +36,32 @@ export default function Component(props: ModalProps) {
         return () => document.removeEventListener("keydown", handler);
     }, []);
 
+    console.log(typeof props.button);
+
     return (
         <>
-            <Frame
-                as="button"
-                className="m-4"
-                onClick={() => {
+            {typeof props.button === "object" && (
+                <Frame
+                    as="button"
+                    className="m-4"
+                    onClick={() => {
+                        setOpen(true);
+                        setShow(true);
+                    }}
+                >
+                    {props.button}
+                </Frame>
+            )}
+            {typeof props.button === "function" &&
+                props.button(() => {
                     setOpen(true);
                     setShow(true);
-                }}
-            >
-                {props.button}
-            </Frame>
-
+                })}
             <Animator root active={show}>
                 {open &&
                     createPortal(
                         <div
-                            className="fixed z-10 left-0 right-0 top-0 bottom-0 mx-auto bg-black/60"
+                            className="fixed z-10 left-0 right-0 top-0 bottom-0 mx-auto bg-black/90"
                             onClick={onClose}
                             ref={overlay}
                         >

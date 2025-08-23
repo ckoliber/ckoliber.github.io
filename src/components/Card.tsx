@@ -1,8 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 import Animator from "./Animator";
 import Frame from "./Frame";
+import Modal from "./Modal";
 import Text from "./Text";
 
 export interface CardProps {
@@ -12,10 +15,55 @@ export interface CardProps {
     title: string;
     subtitle?: string;
     location?: string;
+    modalable?: boolean;
     children?: React.ReactNode;
 }
 
 export default function Component(props: CardProps) {
+    if (props.modalable) {
+        return (
+            <Frame illuminator={500} type="underline" size="small">
+                <Modal
+                    button={(onClick) => (
+                        <Image
+                            alt="Personal"
+                            src={props.logo as any}
+                            width={1000}
+                            height={1000}
+                            className="cursor-pointer"
+                            onClick={onClick}
+                        />
+                    )}
+                >
+                    {props.children}
+                </Modal>
+                <div className="p-4">
+                    <div className="flex flex-col justify-between">
+                        {props.link ? (
+                            <Link
+                                href={props.link}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <Text as="h5">{props.title}</Text>
+                            </Link>
+                        ) : (
+                            <Text as="h5">{props.title}</Text>
+                        )}
+                        {props.date && <Text as="h6">{props.date}</Text>}
+                    </div>
+                    {props.subtitle && (
+                        <div className="flex flex-col justify-between">
+                            <Text as="h5" className="secondary">
+                                {props.subtitle}
+                            </Text>
+                        </div>
+                    )}
+                </div>
+            </Frame>
+        );
+    }
+
     return (
         <div className="my-4 gap-4 flex flex-col md:flex-row">
             {props.logo && (
