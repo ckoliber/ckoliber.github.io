@@ -5,6 +5,13 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
+import Headroom from "@/components/Headroom";
+import Theme from "@/components/Theme";
+import Frame from "@/components/Frame";
+import Modal from "@/components/Modal";
+import Text from "@/components/Text";
+import Link from "next/link";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -12,13 +19,6 @@ import {
     faGithub,
     faReact,
 } from "@fortawesome/free-brands-svg-icons";
-
-import Headroom from "@/components/Headroom";
-import Theme from "@/components/Theme";
-import Frame from "@/components/Frame";
-import Modal from "@/components/Modal";
-import Text from "@/components/Text";
-import Link from "next/link";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://ckoliber.dev"),
@@ -54,7 +54,6 @@ export const metadata: Metadata = {
 
 const links = [
     ["Home", "/#home"],
-    ["About", "/#about"],
     ["CV", "/cv"],
     ["Projects", "/projects"],
     ["Blog", "/blog"],

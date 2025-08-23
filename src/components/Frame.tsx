@@ -257,7 +257,7 @@ export default function Component(props: FrameProps) {
             <Frame {...props} className={`primary ${props.className}`} />
             <BleepsOnAnimator
                 transitions={{
-                    entering: "assemble",
+                    entering: "click",
                     exiting: "assemble",
                 }}
             />

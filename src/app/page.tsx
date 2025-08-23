@@ -15,10 +15,10 @@ import {
 function Home() {
     return (
         <Hero id="home" image="/images/hero.jpg">
-            <Text as="h1">I am Mohammad Hossein Nemati</Text>
-            <Text as="b">
-                A DevOps expert, Architecting Scalable Solutions and Automating
-                Success
+            <Text as="h1">Mohammad Hossein Nemati</Text>
+            <Text manager="decipher" as="b">
+                Senior DevOps Engineer. Architecting Scalable & Automated
+                Infrastructure.
             </Text>
             <span>
                 <Link
@@ -55,17 +55,14 @@ function Home() {
                 </Link>
             </span>
             <span>
-                <Link
-                    href="/assets/Mohammad_Hossein_Nemati_CV_en.pdf"
-                    target="_blank"
-                >
+                <Link href="/cv">
                     <Frame
                         as="button"
                         size="small"
                         type="hftagon"
                         className="mt-8 px-8 py-4"
                     >
-                        Download CV
+                        Goto CV
                     </Frame>
                 </Link>
             </span>
@@ -79,61 +76,35 @@ function About() {
             <div className="container max-w-screen-xl">
                 <div className="grid grid-cols-3 gap-8">
                     <div className="col-span-3">
-                        <Text as="h2">About</Text>
                         <span className="mb-4 col-span-2">
                             <Text as="p">
-                                I am a passionate software engineer specializing
-                                in DevOps, AI, and Full-Stack development. My
-                                journey in tech began in 2013 with the creation
-                                of{" "}
-                                <a
-                                    href="https://github.com/ckoliber/cham"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    ChaM
-                                </a>{" "}
-                                (Chapar Messenger), an experience that sparked
-                                my deep interest in programming and networking.
+                                I am a <b>Senior DevOps Engineer</b> with over
+                                five years of experience in CI/CD,
+                                Dockerization, and Infrastructure as Code. My
+                                passion is to build scalable, reliable systems
+                                and drive efficiency through automation. I've
+                                successfully optimized deployments for systems
+                                handling millions of daily transactions and
+                                managed multi-cloud infrastructure using{" "}
+                                <b>Kubernetes</b>, <b>Terraform</b>, and{" "}
+                                <b>Ansible</b>. I have successfully built and
+                                managed scalable clusters, improved build and
+                                deployment speeds, and ensured high
+                                availability. My work has also included
+                                standardizing CI/CD templates across 50+
+                                repositories to unify deployment processes and
+                                building centralized monitoring with{" "}
+                                <b>Grafana</b>, <b>Prometheus</b>, and{" "}
+                                <b>Loki</b>.
                             </Text>
                             <Text as="p">
-                                Over the years, I&apos;ve contributed to major
-                                enterprise projects, including the ManagedFunds
-                                system at TIS, CCS at Mobtaker Darya, and the
-                                Shahin system. Leveraging cutting-edge
-                                technologies like React Native and Hasura,
-                                I&apos;ve delivered innovative solutions across
-                                various industries.
-                            </Text>
-                            <Text as="p">
-                                As my career evolved, I shifted from development
-                                to DevOps, driven by the challenge of scaling
-                                systems and optimizing performance in
-                                production. To build expertise, I took on DevOps
-                                projects with Mobtaker Darya, Pishgam Vira, and
-                                the University of Tehran, gaining hands-on
-                                experience in infrastructure management and
-                                CI/CD pipelines.
-                            </Text>
-                            <Text as="p">
-                                As a Senior DevOps Engineer at Visiwise and
-                                Smartech, I revolutionized infrastructure by
-                                implementing CI/CD pipelines, Dockerizing
-                                applications, and embracing GitOps principles.
-                                My work laid the foundation for scalable,
-                                reliable, and efficient systems through
-                                Infrastructure as Code (IaC) practices using
-                                Ansible and Terraform.
-                            </Text>
-                            <Text as="p">
-                                With a B.S. and M.S. in Computer Science, I have
-                                a strong foundation in AI, which drives my
-                                interest in MLOps. I&apos;m focused on
-                                automating model training, testing, and
-                                inference infrastructure. I&apos;m eager to
-                                apply my skills to innovative projects and
-                                collaborate with others who share my vision for
-                                leveraging technology to create positive impact.
+                                While my core focus is on DevOps, I have a
+                                strong foundation in AI and am exploring MLOps,
+                                particularly in automating model training and
+                                inference. I am eager to apply my skills to
+                                innovative projects and collaborate with others
+                                who share my vision for leveraging technology to
+                                create a positive impact.
                             </Text>
                         </span>
                     </div>

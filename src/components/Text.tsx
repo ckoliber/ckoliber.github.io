@@ -8,7 +8,7 @@ export default function Component(props: TextProps) {
             <Text {...props} className={`primary ${props.className}`} fixed />
             <BleepsOnAnimator
                 transitions={{
-                    entering: "assemble",
+                    entering: "click",
                     exiting: "assemble",
                 }}
             />
