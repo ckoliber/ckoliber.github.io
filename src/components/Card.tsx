@@ -23,20 +23,29 @@ export default function Component(props: CardProps) {
     if (props.modalable) {
         return (
             <Frame illuminator={500} type="underline" size="small">
-                <Modal
-                    button={(onClick) => (
-                        <Image
-                            alt="Personal"
-                            src={props.logo as any}
-                            width={1000}
-                            height={1000}
-                            className="cursor-pointer"
-                            onClick={onClick}
-                        />
-                    )}
-                >
-                    {props.children}
-                </Modal>
+                {props.children ? (
+                    <Modal
+                        button={(onClick) => (
+                            <Image
+                                alt="Personal"
+                                src={props.logo as any}
+                                width={1000}
+                                height={1000}
+                                className="cursor-pointer"
+                                onClick={onClick}
+                            />
+                        )}
+                    >
+                        {props.children}
+                    </Modal>
+                ) : (
+                    <Image
+                        alt="Personal"
+                        src={props.logo as any}
+                        width={1000}
+                        height={1000}
+                    />
+                )}
                 <div className="p-4">
                     <div className="flex flex-col justify-between">
                         {props.link ? (

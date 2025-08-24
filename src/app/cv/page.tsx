@@ -354,6 +354,138 @@ function Experiences() {
     );
 }
 
+function Honors() {
+    return (
+        <>
+            <Text as="h2" className="warning mb-4">
+                Honors & Awards
+            </Text>
+            <ul>
+                <li>
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <p className="text-start md:text-end mb-2 md:mb-0">
+                            Ranked 18st in the Iranian university entrance exam
+                            for the Master&apos;s Degree in Computer Science
+                        </p>
+                        <b>2021</b>
+                    </div>
+                </li>
+                <li>
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <p className="text-start md:text-end mb-2 md:mb-0">
+                            Ranked top 1% among more than 190,000 students who
+                            participated in nationwide entrance examination of
+                            undergraduate studies in Iranian universities
+                        </p>
+                        <b>2016</b>
+                    </div>
+                </li>
+            </ul>
+        </>
+    );
+}
+
+function Skills() {
+    return (
+        <>
+            <Text as="h2" className="warning mb-4">
+                Technical Skills
+            </Text>
+            <ul>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Programming Languages</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            C/C++, C#, Java, JavaScript, TypeScript, Python,
+                            Erlang, Golang, MATLAB
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Client Development</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            HTML/CSS, TailwindCSS, ReactJS, ReactNative, Android
+                            Studio, ElectronJS, Qt/QML (C++)
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Machine/Deep Learning</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            NumPy, OpenCV, Pandas, Seaborn, Matplotlib, PyTorch,
+                            Tensorflow, Huggingface, Scikit-Learn
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Storage & Database</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB,
+                            ClickHouse, RabbitMQ, Kafka, Redis, Minio
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Container Orchestration</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            Podman, Docker, DockerCompose, DockerSwarm,
+                            Kubernetes (K3s, RKE2, EKS), Helm, Nomad
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>High Performance Computing</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            Slurm, SunGridEngine, Rocks Cluster, Nvidia Enroot,
+                            Nvidia Pyxis, Singularity, Apptainer
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Infrastructure & Cloud</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            Terragrunt, Terraform, Ansible, Packer, ESXi,
+                            OpenStack, Hetzner Cloud, Amazon Web Services
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>Monitoring & Alerting</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            Grafana, GrafanaOnCall, Prometheus, Promtail,
+                            OpenTelemetry, Loki, Mimir, Tempo, Alloy
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>CI/CD & Automation</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            DroneCI, GitlabCI, TravisCI, Github Actions, Azure
+                            Pipelines, ArgoCD, GitOps
+                        </i>
+                    </div>
+                </li>
+                <li className="w-full pr-8">
+                    <div className="flex flex-col md:flex-row md:justify-between">
+                        <b>LowCode & NoCode</b>
+                        <i className="text-start md:text-end mb-2 md:mb-0">
+                            N8n, Hasura, Strapi, ReactAdmin
+                        </i>
+                    </div>
+                </li>
+            </ul>
+        </>
+    );
+}
+
 function Educations() {
     return (
         <>
@@ -500,138 +632,6 @@ function Educations() {
     );
 }
 
-function Honors() {
-    return (
-        <>
-            <Text as="h2" className="warning mb-4">
-                Honors & Awards
-            </Text>
-            <ul>
-                <li>
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <p className="text-start md:text-end mb-2 md:mb-0">
-                            Ranked 18st in the Iranian university entrance exam
-                            for the Master&apos;s Degree in Computer Science
-                        </p>
-                        <b>2021</b>
-                    </div>
-                </li>
-                <li>
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <p className="text-start md:text-end mb-2 md:mb-0">
-                            Ranked top 1% among more than 190,000 students who
-                            participated in nationwide entrance examination of
-                            undergraduate studies in Iranian universities
-                        </p>
-                        <b>2016</b>
-                    </div>
-                </li>
-            </ul>
-        </>
-    );
-}
-
-function Skills() {
-    return (
-        <>
-            <Text as="h2" className="warning mb-4">
-                Technical Skills
-            </Text>
-            <ul>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Programming Languages</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            C/C++, C#, Java, JavaScript, TypeScript, Python,
-                            Erlang, Golang, MATLAB
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Client Development</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            HTML/CSS, TailwindCSS, ReactJS, ReactNative, Android
-                            Studio, ElectronJS, Qt/QML (C++)
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Machine/Deep Learning</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            NumPy, OpenCV, Pandas, Seaborn, Matplotlib, PyTorch,
-                            Tensorflow, Huggingface, Scikit-Learn
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Storage & Database</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB,
-                            ClickHouse, RabbitMQ, Kafka, Redis, Minio
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Container Orchestration</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            Podman, Docker, DockerCompose, DockerSwarm,
-                            Kubernetes (K3s, RKE2, EKS), Helm, Nomad
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>High Performance Computing</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            Slurm, SunGridEngine, Rocks Cluster, Nvidia Enroot,
-                            Nvidia Pyxis, Singularity, Apptainer
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Infrastructure & Cloud</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            Terragrunt, Terraform, Ansible, Packer, ESXi,
-                            OpenStack, Hetzner Cloud, Amazon Web Services
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Monitoring & Alerting</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            Grafana, GrafanaOnCall, Prometheus, Promtail,
-                            OpenTelemetry, Loki, Mimir, Tempo, Alloy
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>CI/CD & Automation</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            DroneCI, GitlabCI, TravisCI, Github Actions, Azure
-                            Pipelines, ArgoCD, GitOps
-                        </i>
-                    </div>
-                </li>
-                <li className="w-full pr-8">
-                    <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>LowCode & NoCode</b>
-                        <i className="text-start md:text-end mb-2 md:mb-0">
-                            N8n, Hasura, Strapi, ReactAdmin
-                        </i>
-                    </div>
-                </li>
-            </ul>
-        </>
-    );
-}
-
 function Licenses() {
     return (
         <>
@@ -639,6 +639,20 @@ function Licenses() {
                 Licenses & Certifications
             </Text>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                <Card
+                    logo="/assets/mcp.png"
+                    title="Fundamentals of MCP"
+                    subtitle="Hugging Face"
+                    date="Jul 2025"
+                    modalable
+                />
+                <Card
+                    logo="/assets/agents.png"
+                    title="AI Agents Fundamentals"
+                    subtitle="Hugging Face"
+                    date="Apr 2025"
+                    modalable
+                />
                 <Card
                     logo="/assets/nbml.png"
                     title="Brain Mapping Spring School"
@@ -873,17 +887,26 @@ export default function Page() {
     return (
         <>
             <Hero id="cv" image="/images/break_resume.jpg" height="70vh">
-                <Text as="h1">CV</Text>
+                <Link href="/cv">
+                    <Frame
+                        as="button"
+                        size="small"
+                        type="hftagon"
+                        className="mt-8 px-8 py-4"
+                    >
+                        Download CV
+                    </Frame>
+                </Link>
             </Hero>
             <section className="flex flex-col items-center p-4 md:p-8">
                 <div className="container max-w-screen-xl">
                     <Experiences />
                     <Frame as="hr" className="my-8" />
-                    <Educations />
+                    <Skills />
                     <Frame as="hr" className="my-8" />
                     <Honors />
                     <Frame as="hr" className="my-8" />
-                    <Skills />
+                    <Educations />
                     <Frame as="hr" className="my-8" />
                     <Licenses />
                 </div>
