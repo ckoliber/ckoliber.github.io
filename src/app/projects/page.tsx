@@ -15,7 +15,64 @@ function Published() {
             </Text>
             <Card
                 date=""
-                link="https://github.com/cktf"
+                link="https://github.com/ckoliber/gocrud"
+                title="GoCRUD"
+                subtitle="Go Module"
+                location=""
+            >
+                <ul>
+                    <li>
+                        Seamless Huma integration: register a repository and get
+                        CRUD routes generated for your model
+                    </li>
+                    <li>
+                        Endpoints out of the box: GET list/by-id, POST, PUT,
+                        DELETE for any model
+                    </li>
+                    <li>
+                        Strong input validation via Go struct tags
+                        (required/min/max/maxLength, examples, docs)
+                    </li>
+                    <li>
+                        Customizable before/after hooks per method to enforce
+                        business rules and side effects
+                    </li>
+                    <li>
+                        Flexible config per method (Get/Put/Post/Delete modes)
+                        to enable bulk/single behaviors
+                    </li>
+                    <li>
+                        Relation filtering: query parents by child fields via
+                        declared relations
+                    </li>
+                    <li>
+                        Custom field operations: add type-safe operators (e.g.,
+                        _regexp, _iregexp) on selected fields
+                    </li>
+                </ul>
+            </Card>
+            <Card
+                date=""
+                title="Ravand BPMS"
+                subtitle="Personal Project"
+                location=""
+            >
+                <ul>
+                    <li>
+                        UI platform built on Camunda 8 (Zeebe) with advanced
+                        forms renderer and DMS integrations
+                    </li>
+                    <li>
+                        BPMN viewer/editor using BPMN.io with custom extensions
+                    </li>
+                    <li>
+                        Tech: Vite, React, BPMN.io, GitHub Actions, Semantic
+                        Release, Renovate, DevContainers
+                    </li>
+                </ul>
+            </Card>
+            <Card
+                date=""
                 title="Terraform Community Modules"
                 subtitle="Open Source"
                 location=""
@@ -23,17 +80,18 @@ function Published() {
                 <ul>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-module-rke"
+                            href="https://github.com/ckoliber/terraform-google-cluster"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <b>terraform-module-rke</b>
+                            <b>terraform-google-cluster</b>
                         </a>
-                        : Terraform module for Provisioning HA Kubernetes
-                        clusters using K3s and RKE2 on hosts using SSH, WinRM
+                        : General-purpose cluster provisioner for Google Cloud
+                        (Swarm/Kubernetes/Nomad) with server groups and load
+                        balancers
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-module-rke"
+                            href="https://github.com/ckoliber/terraform-google-cluster"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -42,17 +100,17 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-module-ansible"
+                            href="https://github.com/ckoliber/terraform-google-network"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <b>terraform-module-ansible</b>
+                            <b>terraform-google-network</b>
                         </a>
-                        : Terraform module to generate dynamic inventory from
-                        SSH/WinRM connections and run ansible-playbook over that
+                        : Creates VPCs, subnets, routes, and firewall rules on
+                        Google Cloud
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-module-ansible"
+                            href="https://github.com/ckoliber/terraform-google-network"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -61,55 +119,17 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-hcloud-rke"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <b>terraform-hcloud-rke</b>
-                        </a>
-                        : Terraform module for Provisioning HA Kubernetes
-                        clusters using K3s and RKE2 on Hetzner cloud
-                        <Link
-                            className="ml-2"
-                            href="https://github.com/cktf/terraform-hcloud-rke"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FontAwesomeIcon icon={faExternalLink} />
-                        </Link>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/cktf/terraform-hcloud-cluster"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <b>terraform-hcloud-cluster</b>
-                        </a>
-                        : General purpose cluster provisioner on hetzner cloud,
-                        for configuring Swarm, Kubernetes, Nomad, etc
-                        <Link
-                            className="ml-2"
-                            href="https://github.com/cktf/terraform-hcloud-cluster"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FontAwesomeIcon icon={faExternalLink} />
-                        </Link>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/cktf/terraform-hcloud-network"
+                            href="https://github.com/ckoliber/terraform-hcloud-network"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-hcloud-network</b>
                         </a>
-                        : Terraform module for Creating and Managing Network,
-                        Subnet on Hetzner cloud
+                        : Creates networks, subnets, routes, and firewalls on
+                        Hetzner Cloud
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-hcloud-network"
+                            href="https://github.com/ckoliber/terraform-hcloud-network"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -118,17 +138,130 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-hcloud-wireguard"
+                            href="https://github.com/ckoliber/terraform-hcloud-cluster"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>terraform-hcloud-cluster</b>
+                        </a>
+                        : General-purpose cluster provisioner for Hetzner Cloud
+                        (Swarm/Kubernetes/Nomad) with servers, volumes, and load
+                        balancers
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/terraform-hcloud-cluster"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/terraform-module-ansible"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>terraform-module-ansible</b>
+                        </a>
+                        : Generates dynamic inventory from SSH/WinRM connections
+                        and runs ansible-playbook from Terraform
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/terraform-module-ansible"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/ansible-role-swarm"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>ansible-role-swarm</b>
+                        </a>
+                        : Installs Docker and bootstraps a Swarm with
+                        managers/workers, overlay network, and prune cron
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/ansible-role-swarm"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/ansible-role-wireguard"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>ansible-role-wireguard</b>
+                        </a>
+                        : Installs and configures a WireGuard VPN with peers
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/ansible-role-wireguard"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/terraform-module-rke"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>terraform-module-rke</b>
+                        </a>
+                        : Bootstraps K3s/RKE2 clusters over SSH/WinRM (an
+                        alternative to k3sup)
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/terraform-module-rke"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/terraform-hcloud-rke"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>terraform-hcloud-rke</b>
+                        </a>
+                        : Provisions K3s/RKE2 on Hetzner Cloud and installs CCM,
+                        CSI, and Cluster Autoscaler
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/terraform-hcloud-rke"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/terraform-hcloud-wireguard"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-hcloud-wireguard</b>
                         </a>
-                        : Terraform module for Provisioning Wireguard VPN
-                        instance and manage Users on Hetzner cloud
+                        : Creates a WireGuard VPN instance on Hetzner Cloud
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-hcloud-wireguard"
+                            href="https://github.com/ckoliber/terraform-hcloud-wireguard"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -137,17 +270,16 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-aws-wireguard"
+                            href="https://github.com/ckoliber/terraform-aws-wireguard"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-aws-wireguard</b>
                         </a>
-                        : Terraform module for Provisioning Wireguard VPN
-                        instance and manage users on AWS cloud
+                        : Creates a WireGuard VPN instance on AWS
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-aws-wireguard"
+                            href="https://github.com/ckoliber/terraform-aws-wireguard"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -156,17 +288,16 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-openstack-rke"
+                            href="https://github.com/ckoliber/terraform-openstack-rke"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-openstack-rke</b>
                         </a>
-                        : Terraform module for Provisioning HA Kubernetes
-                        clusters using K3s and RKE2 on OpenStack cloud
+                        : Bootstraps HA K3s/RKE2 clusters on OpenStack
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-openstack-rke"
+                            href="https://github.com/ckoliber/terraform-openstack-rke"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -175,17 +306,16 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-openstack-network"
+                            href="https://github.com/ckoliber/terraform-openstack-network"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-openstack-network</b>
                         </a>
-                        : Terraform module for Creating and Managing Network,
-                        Subnet, Routes on OpenStack cloud
+                        : Creates networks, subnets, and routers on OpenStack
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-openstack-network"
+                            href="https://github.com/ckoliber/terraform-openstack-network"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -194,17 +324,16 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-kubernetes-x509"
+                            href="https://github.com/ckoliber/terraform-kubernetes-x509"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-kubernetes-x509</b>
                         </a>
-                        : Terraform module for Creating and Managing X.509
-                        Certificate and RoleBinding on Kubernetes
+                        : Creates X.509 users and role bindings in Kubernetes
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-kubernetes-x509"
+                            href="https://github.com/ckoliber/terraform-kubernetes-x509"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -213,17 +342,17 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-kubernetes-environment"
+                            href="https://github.com/ckoliber/terraform-kubernetes-environment"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-kubernetes-environment</b>
                         </a>
-                        : Terraform module for Creating and Managing isolated
-                        environments on Kubernetes
+                        : Provisions namespaced environments (quota, registry
+                        secret) in Kubernetes
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-kubernetes-environment"
+                            href="https://github.com/ckoliber/terraform-kubernetes-environment"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -232,17 +361,17 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-gitlab-application"
+                            href="https://github.com/ckoliber/terraform-gitlab-application"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-gitlab-application</b>
                         </a>
-                        : Terraform module for Creating and Managing Groups,
-                        Projects and default organization policies on Gitlab
+                        : Manages GitLab groups, projects, and default
+                        organization policies
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-gitlab-application"
+                            href="https://github.com/ckoliber/terraform-gitlab-application"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -251,17 +380,17 @@ function Published() {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/cktf/terraform-gitlab-environment"
+                            href="https://github.com/ckoliber/terraform-gitlab-environment"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <b>terraform-gitlab-environment</b>
                         </a>
-                        : Terraform module for Creating and Managing
-                        Environments for Projects on Gitlab
+                        : Manages per-project environments in GitLab (e.g.,
+                        review/stage/prod)
                         <Link
                             className="ml-2"
-                            href="https://github.com/cktf/terraform-gitlab-environment"
+                            href="https://github.com/ckoliber/terraform-gitlab-environment"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -276,8 +405,8 @@ function Published() {
                         >
                             <b>windows-cloud-image</b>
                         </a>
-                        : Packer configs to create Windows Cloud Image uisng
-                        VirtualBox and QEMU
+                        : Packer templates to build Windows Server images with
+                        Cloudbase-Init via VirtualBox/QEMU
                         <Link
                             className="ml-2"
                             href="https://github.com/ckoliber/windows-cloud-image"
@@ -305,8 +434,9 @@ function Published() {
                         >
                             <b>loopback-component-crud</b>
                         </a>
-                        : Generating CRUD endpoints from Model supports AuthZ,
-                        Nested-Create, Nested-Update
+                        : Generates CRUD endpoints from model configs; supports
+                        authentication, authorization, validation, nested
+                        create/update
                         <Link
                             className="ml-2"
                             href="https://github.com/loopback4/loopback-component-crud"
@@ -324,8 +454,8 @@ function Published() {
                         >
                             <b>loopback-component-filter</b>
                         </a>
-                        : Filtering Model records based on user permissions in
-                        ORM Repository level
+                        : Repository mixin to filter records based on
+                        user/context rules
                         <Link
                             className="ml-2"
                             href="https://github.com/loopback4/loopback-component-filter"
@@ -343,8 +473,8 @@ function Published() {
                         >
                             <b>loopback-component-history</b>
                         </a>
-                        : Adding Soft-Delete and Soft-Update functionality in
-                        ORM Repository level
+                        : Adds temporal history to models via
+                        HistoryEntity/Repository, tracking create/update/delete
                         <Link
                             className="ml-2"
                             href="https://github.com/loopback4/loopback-component-history"
@@ -362,8 +492,8 @@ function Published() {
                         >
                             <b>loopback-component-cascade</b>
                         </a>
-                        : Adding Cascade functionality to models in ORM
-                        Repository level
+                        : Repository mixin for cascading create/update/delete
+                        across relations
                         <Link
                             className="ml-2"
                             href="https://github.com/loopback4/loopback-component-cascade"
@@ -381,8 +511,8 @@ function Published() {
                         >
                             <b>loopback-component-authorization</b>
                         </a>
-                        : Supporting HRBAC (Hierarchical Role Based Access
-                        Control) authorization
+                        : HRBAC authorization for LoopBack 4 with decorators,
+                        repositories, and mixins
                         <Link
                             className="ml-2"
                             href="https://github.com/loopback4/loopback-component-authorization"
@@ -409,8 +539,8 @@ function Published() {
                         >
                             <b>ra-data-lb4</b>
                         </a>
-                        : Loopback4 auto-generated CRUD endpoints data-provider
-                        library
+                        : React Admin data provider for LoopBack 4; supports
+                        includes and custom HTTP client
                         <Link
                             className="ml-2"
                             href="https://github.com/loopback4/ra-data-lb4"
@@ -428,8 +558,8 @@ function Published() {
                         >
                             <b>ra-data-mixer</b>
                         </a>
-                        : Mixing multiple data-providers into one data-provider
-                        library
+                        : Mixes multiple data providers/resources into one React
+                        Admin provider with per-resource filters
                         <Link
                             className="ml-2"
                             href="https://github.com/ckoliber/ra-data-mixer"
@@ -447,8 +577,8 @@ function Published() {
                         >
                             <b>ra-data-processmaker3</b>
                         </a>
-                        : ProcessMaker3 BPMS CRUD endpoints data-provider
-                        library
+                        : React Admin data provider for ProcessMaker 3 APIs;
+                        supports custom HTTP client
                         <Link
                             className="ml-2"
                             href="https://github.com/ckoliber/ra-data-processmaker3"

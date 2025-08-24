@@ -16,65 +16,78 @@ function Experiences() {
             <Card
                 date="May 2022 -- Present"
                 title="Visiwise.co"
-                subtitle="Senior DevOps Engineer"
-                location="Tehran, Iran"
+                subtitle="Senior DevOps Engineer (Full-time)"
+                location="Calgary, Canada"
             >
                 <ul>
                     <li>
-                        Reduced infrastructure costs by migrating workloads to
-                        ARM64-based servers on Hetzner Cloud
+                        Cut infrastructure costs by migrating workloads to ARM64
+                        on Hetzner and consolidating services on Docker Swarm
                     </li>
                     <li>
                         Designed scalable Swarm clusters for staging and
                         production using Terragrunt, Terraform, and Ansible
                     </li>
                     <li>
-                        Refactored codebases of 10+ projects to improve
-                        deployment stability and maintainability (
-                        <b>12-Factor</b>)
+                        Improved deployment stability across 10+ projects by
+                        refactoring toward 12‑Factor practices
                     </li>
                     <li>
-                        Migrated critical services to Docker Swarm to optimize
-                        resource usage and simplify operations
+                        Delivered Postgres HA with PgCat; automated backups and
+                        zero‑downtime migrations
                     </li>
                     <li>
-                        Set up a PostgreSQL cluster with automated backups and
-                        zero-downtime migration procedures
+                        Centralized observability with Grafana/Loki/Prometheus,
+                        and set up Grafana OnCall with escalation policies
                     </li>
                     <li>
-                        Automated provisioning across multiple environments
-                        using Terraform and Ansible
+                        Standardized CI/CD; added review apps, scheduled E2E
+                        tests, and enabled Renovate for private GitLab
+                        registries
                     </li>
                     <li>
-                        Deployed self-hosted services like Sentry and GitLab to
-                        reduce reliance on external SaaS providers
+                        Migrated uptime monitoring to BetterStack with
+                        escalation chains (call/SMS)
                     </li>
                     <li>
-                        Built centralized monitoring with Grafana, Loki, and
-                        Prometheus, and created custom dashboards
+                        Automated provisioning across environments; self‑hosted
+                        Sentry and GitLab to reduce SaaS spend
                     </li>
                     <li>
-                        Configured Grafana OnCall with escalation policies and
-                        on-call schedules for incident management
+                        Migrated core services to Google Cloud Platform (GCP);
+                        operate multi‑cloud across AWS, GCP, and Hetzner
+                    </li>
+                </ul>
+            </Card>
+            <Card
+                date="Jul 2024 -- Oct 2024"
+                title="Faraatar Entrepreneurship Group"
+                subtitle="Senior DevOps Engineer (Contract)"
+                location="Tehran, Iran"
+            >
+                <ul>
+                    <li>
+                        Built a multi-tenant CRM SaaS platform using Kubernetes
+                        and Terraform
                     </li>
                     <li>
-                        Standardized CI/CD pipelines to improve build and
-                        deployment speed across all projects
+                        Standardized CI/CD pipelines for GitLab projects and
+                        environments
                     </li>
                     <li>
-                        Maintained a multi-cloud setup on Hetzner and AWS to
-                        balance availability and infrastructure costs
+                        Shipped a licensed CRM runtime for on-prem customers
+                        using Apptainer with encrypted containers
                     </li>
                     <li>
-                        Implemented review apps to provide preview environments
-                        for testing and QA
+                        Developed a Golang agent to securely fetch and run the
+                        latest licensed images while protecting source code
                     </li>
                 </ul>
             </Card>
             <Card
                 date="Jan 2024 -- Sep 2024"
                 title="Smartech"
-                subtitle="Senior DevOps Engineer"
+                subtitle="Senior DevOps Engineer (Full-time)"
                 location="Tehran, Iran"
             >
                 <ul>
@@ -123,7 +136,7 @@ function Experiences() {
             <Card
                 date="Jul 2022 -- Jun 2023"
                 title="University of Tehran"
-                subtitle="DevOps Engineer"
+                subtitle="DevOps Engineer (Part-time)"
                 location="Tehran, Iran"
             >
                 <ul>
@@ -148,7 +161,7 @@ function Experiences() {
             <Card
                 date="Mar 2022 -- Jun 2022"
                 title="Pishgam Vira"
-                subtitle="DevOps Engineer"
+                subtitle="DevOps Engineer (Part-time)"
                 location="Tehran, Iran"
             >
                 <ul>
@@ -170,7 +183,7 @@ function Experiences() {
             <Card
                 date="Nov 2019 -- Jun 2022"
                 title="Mobtaker Darya"
-                subtitle="Full-stack Developer & DevOps Engineer"
+                subtitle="Full-stack Developer & DevOps Engineer (Full-time)"
                 location="Tehran, Iran"
             >
                 <ul>
@@ -195,7 +208,7 @@ function Experiences() {
             <Card
                 date="Mar 2019 -- Oct 2019"
                 title="Tolou Yekta Samaneh"
-                subtitle="Full-stack Developer"
+                subtitle="Full-stack Developer (Part-time)"
                 location="Tehran, Iran"
             >
                 <ul>
@@ -224,7 +237,7 @@ function Experiences() {
             <Card
                 date="Dec 2013 -- Aug 2018"
                 title="ChaM (Chapar Messenger)"
-                subtitle="Founder & Lead Developer"
+                subtitle="Founder & Lead Developer (Self-employed)"
                 location="Tehran, Iran"
             >
                 <ul>
@@ -262,7 +275,7 @@ function Experiences() {
                 <b>Advisor:</b> Prof. Bagher Babaali
                 <ul>
                     <li>
-                        Researching deep learning-based seizure detection with
+                        Researched deep learning-based seizure detection with
                         GNNs and bio-signal transformers
                     </li>
                     <li>
@@ -364,7 +377,7 @@ function Honors() {
                 <li>
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <p className="text-start md:text-end mb-2 md:mb-0">
-                            Ranked 18st in the Iranian university entrance exam
+                            Ranked 18th in the Iranian university entrance exam
                             for the Master&apos;s Degree in Computer Science
                         </p>
                         <b>2021</b>
@@ -405,8 +418,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Client Development</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            HTML/CSS, TailwindCSS, ReactJS, ReactNative, Android
-                            Studio, ElectronJS, Qt/QML (C++)
+                            HTML/CSS, Tailwind CSS, React, React Native, Android
+                            Studio, Electron JS, Qt/QML (C++)
                         </i>
                     </div>
                 </li>
@@ -415,7 +428,7 @@ function Skills() {
                         <b>Machine/Deep Learning</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             NumPy, OpenCV, Pandas, Seaborn, Matplotlib, PyTorch,
-                            Tensorflow, Huggingface, Scikit-Learn
+                            TensorFlow, Hugging Face, scikit-learn
                         </i>
                     </div>
                 </li>
@@ -424,7 +437,7 @@ function Skills() {
                         <b>Storage & Database</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB,
-                            ClickHouse, RabbitMQ, Kafka, Redis, Minio
+                            ClickHouse, RabbitMQ, Kafka, Redis, MinIO
                         </i>
                     </div>
                 </li>
@@ -432,7 +445,7 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Container Orchestration</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Podman, Docker, DockerCompose, DockerSwarm,
+                            Podman, Docker, Docker Compose, Docker Swarm,
                             Kubernetes (K3s, RKE2, EKS), Helm, Nomad
                         </i>
                     </div>
@@ -441,8 +454,8 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>High Performance Computing</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Slurm, SunGridEngine, Rocks Cluster, Nvidia Enroot,
-                            Nvidia Pyxis, Singularity, Apptainer
+                            Slurm, Sun Grid Engine, Rocks Cluster, NVIDIA
+                            Enroot, NVIDIA Pyxis, Singularity, Apptainer
                         </i>
                     </div>
                 </li>
@@ -451,7 +464,7 @@ function Skills() {
                         <b>Infrastructure & Cloud</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             Terragrunt, Terraform, Ansible, Packer, ESXi,
-                            OpenStack, Hetzner Cloud, Amazon Web Services
+                            OpenStack, Hetzner Cloud, GCP, AWS
                         </i>
                     </div>
                 </li>
@@ -459,7 +472,7 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>Monitoring & Alerting</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            Grafana, GrafanaOnCall, Prometheus, Promtail,
+                            Grafana, Grafana OnCall, Prometheus, Promtail,
                             OpenTelemetry, Loki, Mimir, Tempo, Alloy
                         </i>
                     </div>
@@ -468,16 +481,17 @@ function Skills() {
                     <div className="flex flex-col md:flex-row md:justify-between">
                         <b>CI/CD & Automation</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            DroneCI, GitlabCI, TravisCI, Github Actions, Azure
-                            Pipelines, ArgoCD, GitOps
+                            Drone CI, GitLab CI, Travis CI, GitHub Actions,
+                            Azure Pipelines, Argo CD, GitOps
                         </i>
                     </div>
                 </li>
                 <li className="w-full pr-8">
                     <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>LowCode & NoCode</b>
+                        <b>Workflow Automation</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
-                            N8n, Hasura, Strapi, ReactAdmin
+                            N8n, Temporal, Camunda (BPMS), ProcessMaker (BPMS),
+                            Process360 (BPMS)
                         </i>
                     </div>
                 </li>
@@ -486,11 +500,11 @@ function Skills() {
     );
 }
 
-function Educations() {
+function Education() {
     return (
         <>
             <Text as="h2" className="warning mb-4">
-                Educations
+                Education
             </Text>
             <Card
                 logo="/images/tehran_university.jpg"
@@ -665,14 +679,14 @@ function Licenses() {
                     </Text>
                     <ul className="grid grid-cols-1">
                         <li className="w-full md:pr-8">
-                            Foundamentals of neuroscience, cognitive science and
+                            Fundamentals of neuroscience, cognitive science and
                             brain mapping
                         </li>
                         <li className="w-full md:pr-8">
                             Introduction to anatomy and physiology of the brain
                         </li>
                         <li className="w-full md:pr-8">
-                            Foundamentals of EEG, MRI, fNIRS, iTMS/TES, and
+                            Fundamentals of EEG, MRI, fNIRS, iTMS/TES, and
                             neurofeedback
                         </li>
                         <li className="w-full md:pr-8">
@@ -887,7 +901,10 @@ export default function Page() {
     return (
         <>
             <Hero id="cv" image="/images/break_resume.jpg" height="70vh">
-                <Link href="/cv">
+                <Link
+                    href="/assets/Mohammad_Hossein_Nemati_CV_en.pdf"
+                    target="_blank"
+                >
                     <Frame
                         as="button"
                         size="small"
@@ -906,7 +923,7 @@ export default function Page() {
                     <Frame as="hr" className="my-8" />
                     <Honors />
                     <Frame as="hr" className="my-8" />
-                    <Educations />
+                    <Education />
                     <Frame as="hr" className="my-8" />
                     <Licenses />
                 </div>

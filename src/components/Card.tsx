@@ -1,5 +1,8 @@
 "use client";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -54,7 +57,10 @@ export default function Component(props: CardProps) {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <Text as="h5">{props.title}</Text>
+                                <Text as="h5">
+                                    {props.title}{" "}
+                                    <FontAwesomeIcon icon={faExternalLink} />
+                                </Text>
                             </Link>
                         ) : (
                             <Text as="h5">{props.title}</Text>
@@ -106,7 +112,10 @@ export default function Component(props: CardProps) {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <Text as="h3">{props.title}</Text>
+                            <Text as="h3">
+                                {props.title}{" "}
+                                <FontAwesomeIcon icon={faExternalLink} />
+                            </Text>
                         </Link>
                     ) : (
                         <Text as="h3">{props.title}</Text>
