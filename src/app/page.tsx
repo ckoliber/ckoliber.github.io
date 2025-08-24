@@ -82,10 +82,10 @@ function About() {
                                 five years of experience in CI/CD,
                                 Dockerization, and Infrastructure as Code. My
                                 passion is to build scalable, reliable systems
-                                and drive efficiency through automation. I've
-                                successfully optimized deployments for systems
-                                handling millions of daily transactions and
-                                managed multi-cloud infrastructure using{" "}
+                                and drive efficiency through automation.
+                                I&apos;ve successfully optimized deployments for
+                                systems handling millions of daily transactions
+                                and managed multi-cloud infrastructure using{" "}
                                 <b>Kubernetes</b>, <b>Terraform</b>, and{" "}
                                 <b>Ansible</b>. I have successfully built and
                                 managed scalable clusters, improved build and
