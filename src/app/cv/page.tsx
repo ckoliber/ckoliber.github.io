@@ -488,7 +488,7 @@ function Skills() {
                 </li>
                 <li className="w-full pr-8">
                     <div className="flex flex-col md:flex-row md:justify-between">
-                        <b>Workflow Automation</b>
+                        <b>Workflow Orchestration</b>
                         <i className="text-start md:text-end mb-2 md:mb-0">
                             N8n, Temporal, Camunda (BPMS), ProcessMaker (BPMS),
                             Process360 (BPMS)

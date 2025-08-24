@@ -68,7 +68,7 @@
 }
 \def\location#1{
     \renewcommand\location{
-        \textcolor{black}{\faFlagUsa}\hspace{0.5em}#1
+        \textcolor{black}{\faMapMarker*}\hspace{0.5em}#1
     }
 }
 \def\email#1{
@@ -110,6 +110,8 @@
         \vspace{0.8em}
         \newline
         \begin{tabular}[c]{l@{\hspace{1em}}l}
+            \small\location & \small\phone
+            \tabularnewline
             \small\email    & \small\website
             \tabularnewline
             \small\linkedin & \small\github

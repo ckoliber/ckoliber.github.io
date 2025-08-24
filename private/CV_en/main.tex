@@ -1,32 +1,36 @@
 \documentclass[]{main}
 \fullname{Mohammad Hossein Nemati}
-\jobtitle{DevOps Engineer}
+\jobtitle{Senior DevOps Engineer}
 
 \begin{document}
 \resumeheader
+{\address{Leipzig, Germany}}
+{\phone{+49 152 01847345}}
 {\email{ckoliber@gmail.com}}
 {\website{ckoliber.dev}}
 {\linkedin{ckoliber}}
 {\github{ckoliber}}
-{}
-{}
 
-I'm a DevOps engineer with over 5 years of experience, specializing in CI/CD pipeline implementation, Dockerization, and Infrastructure as Code (IaC) across teams of 10+ engineers. I've optimized deployments for systems handling millions of daily transactions. While my focus is on DevOps, I'm also exploring MLOps, particularly in automating model training and inference.
+Senior DevOps Engineer with 5+ years building scalable, automated infrastructure across multi-cloud environments. I standardize CI/CD (50+ repos), harden high-throughput deployments, and run centralized observability (Grafana Stack). Exploring MLOps to automate model training and inference.
 
 \begin{section}{Work Experience}
  \begin{subsection}{Visiwise.co}{Senior DevOps Engineer}{May 2022 -- Present}{}
-     \item Reduced infrastructure costs by migrating workloads to ARM64-based servers on Hetzner Cloud
+     \item Cut infrastructure costs by migrating workloads to ARM64 on Hetzner Cloud
      \item Designed scalable Swarm clusters for staging and production using Terragrunt, Terraform, and Ansible
-     \item Refactored codebases of 10+ projects to improve deployment stability and maintainability (12-Factor)
-     \item Migrated critical services to Docker Swarm to optimize resource usage and simplify operations
-     \item Set up a PostgreSQL cluster with automated backups and zero-downtime migration procedures
-     \item Automated provisioning across multiple environments using Terraform and Ansible
-     \item Deployed self-hosted services like Sentry and GitLab to reduce reliance on external SaaS providers
-     \item Built centralized monitoring with Grafana, Loki, and Prometheus, and created custom dashboards
-     \item Configured Grafana OnCall with escalation policies and on-call schedules for incident management
-     \item Standardized CI/CD pipelines to improve build and deployment speed across all projects
-     \item Maintained a multi-cloud setup on Hetzner and AWS to balance availability and infrastructure costs
-     \item Implemented review apps to provide preview environments for testing and QA
+     \item Improved deployment stability across 10+ projects by refactoring toward 12-Factor practices
+     \item Delivered Postgres HA with PgCat; automated backups and zero-downtime migrations
+     \item Centralized observability with Grafana/Loki/Prometheus; set up Grafana OnCall with escalation policies
+     \item Standardized CI/CD; added review apps, scheduled E2E tests, and enabled Renovate for private registries
+     \item Migrated uptime monitoring to BetterStack with escalation chains (call/SMS)
+     \item Automated provisioning across environments; self-hosted Sentry and GitLab to reduce SaaS spend
+     \item Migrated core services to Google Cloud Platform (GCP); operate multi-cloud across AWS, GCP, and Hetzner
+ \end{subsection}
+
+ \begin{subsection}{Faraatar Entrepreneurship Group}{Senior DevOps Engineer (Contract)}{Jul 2024 -- Oct 2024}{}
+     \item Built a multi-tenant CRM SaaS platform using Kubernetes and Terraform
+     \item Standardized CI/CD pipelines for GitLab projects and environments
+     \item Shipped a licensed CRM runtime for on-prem customers using Apptainer with encrypted containers
+     \item Developed a Golang agent to securely fetch and run the latest licensed images while protecting source code
  \end{subsection}
 
  \begin{subsection}{Smartech}{Senior DevOps Engineer}{Jan 2024 -- Sep 2024}{}
@@ -74,10 +78,10 @@ I'm a DevOps engineer with over 5 years of experience, specializing in CI/CD pip
 
 \sectiontable{Technical Skills}{
     \entry{Programming Languages}{C/C++, C\#, Java, JavaScript, TypeScript, Python, Erlang, Golang, MATLAB}
-    \entry{Storage \& Database}{PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB, ClickHouse, RabbitMQ, Kafka, Redis, Minio}
-    \entry{Container Orchestration}{Podman, Docker, DockerCompose, DockerSwarm, Kubernetes (K3s, RKE2, EKS), Helm, Nomad}
-    \entry{High Performance Computing}{Slurm, SunGridEngine, Rocks Cluster, Nvidia Enroot, Nvidia Pyxis, Singularity, Apptainer}
-    \entry{Infrastructure \& Cloud}{Terragrunt, Terraform, Ansible, Packer, ESXi, OpenStack, Hetzner Cloud, Amazon Web Services}
+    \entry{Storage \& Database}{PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB, ClickHouse, RabbitMQ, Kafka, Redis, MinIO}
+    \entry{Container Orchestration}{Podman, Docker, Docker Compose, Docker Swarm, Kubernetes (K3s, RKE2, EKS), Helm, Nomad}
+    \entry{High Performance Computing}{Slurm, Sun Grid Engine, Rocks Cluster, Nvidia Enroot, Nvidia Pyxis, Singularity, Apptainer}
+    \entry{Infrastructure \& Cloud}{Terragrunt, Terraform, Ansible, Packer, ESXi, OpenStack, Hetzner Cloud, GCP, AWS}
     \entry{Monitoring \& Alerting}{Grafana, GrafanaOnCall, Prometheus, Promtail, OpenTelemetry, Loki, Mimir, Tempo, Alloy}
     \entry{CI/CD \& Automation}{DroneCI, GitlabCI, TravisCI, Github Actions, Azure Pipelines, ArgoCD, GitOps}
 }

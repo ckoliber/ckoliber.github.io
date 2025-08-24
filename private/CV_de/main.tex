@@ -1,93 +1,97 @@
 \documentclass[]{main}
 \fullname{Mohammad Hossein Nemati}
-\jobtitle{DevOps-Engineer}
+\jobtitle{Senior DevOps Engineer}
 
 \begin{document}
 \resumeheader
+{\address{Leipzig, Deutschland}}
+{\phone{+49 152 01847345}}
 {\email{ckoliber@gmail.com}}
 {\website{ckoliber.dev}}
 {\linkedin{ckoliber}}
 {\github{ckoliber}}
-{}
-{}
 
-Ich bin ein DevOps-Engineer mit über 5 Jahren Erfahrung und spezialisiere mich auf die Implementierung von CI/CD-Pipelines, Dockerisierung und Infrastructure as Code (IaC) in Teams mit mehr als 10 Ingenieuren. Ich habe Deployments für Systeme optimiert, die Millionen täglicher Transaktionen verarbeiten. Neben meinem Fokus auf DevOps beschäftige ich mich auch mit MLOps, insbesondere der Automatisierung von Modelltraining und -inferenz.
+Senior DevOps Engineer mit mehr als 5 Jahren Erfahrung im Aufbau skalierbarer, automatisierter Infrastrukturen in Multi-Cloud-Umgebungen. Ich standardisiere CI/CD (über 50 Repositories), stärke Hochleistungs-Deployments und betreibe zentralisierte Observability (Grafana Stack). Ich erforsche MLOps zur Automatisierung von Modell-Training und -Inferenz.
 
 \begin{section}{Berufserfahrung}
- \begin{subsection}{Visiwise.co}{Senior DevOps-Engineer}{Mai 2022 -- Heute}{}
-     \item Senkung der Infrastrukturkosten durch Migration auf ARM64-basierte Server in der Hetzner Cloud
-     \item Design skalierbarer Swarm-Cluster für Staging und Produktion mit Terragrunt, Terraform und Ansible
-     \item Refactoring von über 10 Codebasen zur Verbesserung der Stabilität und Wartbarkeit (12-Factor)
-     \item Migration kritischer Dienste zu Docker Swarm zur Optimierung der Ressourcennutzung und Vereinfachung der Betriebsabläufe
-     \item Einrichtung eines PostgreSQL-Clusters mit automatisierten Backups und Migrationen ohne Ausfallzeit
-     \item Automatisierte Bereitstellung über mehrere Umgebungen hinweg mit Terraform und Ansible
-     \item Deployment von selbstgehosteten Diensten wie Sentry und GitLab zur Reduzierung externer SaaS-Abhängigkeiten
-     \item Aufbau eines zentralen Monitorings mit Grafana, Loki und Prometheus sowie Erstellung individueller Dashboards
-     \item Konfiguration von Grafana OnCall mit Eskalationsrichtlinien und Bereitschaftsplänen für das Incident-Management
-     \item Standardisierung von CI/CD-Pipelines zur Verbesserung von Build- und Deployment-Geschwindigkeit
-     \item Betrieb einer Multi-Cloud-Infrastruktur auf Hetzner und AWS zur Optimierung von Verfügbarkeit und Kosten
-     \item Implementierung von Review-Apps zur Bereitstellung von Vorschauumgebungen für Tests und QA
+ \begin{subsection}{Visiwise.co}{Senior DevOps Engineer}{Mai 2022 -- Heute}{}
+     \item Reduzierte Infrastrukturkosten durch Migration von Workloads zu ARM64 auf Hetzner Cloud
+     \item Entwarf skalierbare Swarm-Cluster für Staging und Produktion unter Verwendung von Terragrunt, Terraform und Ansible
+     \item Verbesserte Deployment-Stabilität in über 10 Projekten durch Refactoring nach den 12-Factor-Praktiken
+     \item Etablierte Postgres HA mit PgCat; automatisierte Backups und Zero-Downtime-Migrationen
+     \item Zentralisierte Observability mit Grafana/Loki/Prometheus; richtete Grafana OnCall mit Eskalationsrichtlinien ein
+     \item Standardisierte CI/CD; fügte Review-Apps, geplante E2E-Tests hinzu und aktivierte Renovate für private Registries
+     \item Migrierte die Uptime-Überwachung zu BetterStack mit Eskalationsketten (Anruf/SMS)
+     \item Automatisierte die Provisionierung über verschiedene Umgebungen hinweg; hostete Sentry und GitLab selbst, um die SaaS-Ausgaben zu senken
+     \item Migrierte Kerndienste zu Google Cloud Platform (GCP); betrieb Multi-Cloud über AWS, GCP und Hetzner
  \end{subsection}
 
- \begin{subsection}{Smartech}{Senior DevOps-Engineer}{Jan 2024 -- Sep 2024}{}
-     \item Standardisierung von CI/CD-Templates in über 50 Repositories zur Vereinheitlichung der Deployment-Prozesse
-     \item Bereitstellung und Verwaltung von Kafka-Clustern mit Ansible für zuverlässiges Event-Streaming
+ \begin{subsection}{Faraatar Entrepreneurship Group}{Senior DevOps Engineer (Vertrag)}{Juli 2024 -- Okt 2024}{}
+     \item Erstellte eine mandantenfähige CRM-SaaS-Plattform mit Kubernetes und Terraform
+     \item Standardisierte CI/CD-Pipelines für GitLab-Projekte und -Umgebungen
+     \item Lieferte eine lizenzierte CRM-Laufzeitumgebung für On-Premise-Kunden mit Apptainer und verschlüsselten Containern
+     \item Entwickelte einen Golang-Agenten, um die neuesten lizenzierten Images sicher abzurufen und auszuführen, während der Quellcode geschützt wurde
+ \end{subsection}
+
+ \begin{subsection}{Smartech}{Senior DevOps Engineer}{Jan 2024 -- Sep 2024}{}
+     \item Standardisierte CI/CD-Templates in über 50 Repositories zur Vereinheitlichung der Deployment-Prozesse
+     \item Bereitstellung und Verwaltung von Kafka-Clustern mit Ansible zur Sicherstellung einer zuverlässigen Ereignisverarbeitung
      \item Betrieb von ClickHouse-Clustern mit über 50 TB Zeitreihendaten für Echtzeitanalysen
-     \item Automatisierung von ClickHouse-Backups und Durchführung von Produktiv-Schema-Migrationen
-     \item Aufbau eines automatisch skalierbaren RKE2-Clusters auf Hetzner mit Terraform und Ansible
-     \item Integration des Cluster Autoscaler zur dynamischen Skalierung der Knoten basierend auf Auslastung
-     \item Entwicklung eines Custom Pod Autoscaler (CPA) zur Skalierung von Workern anhand des Kafka-Consumer-Lags
-     \item Erstellung von Kubernetes-Manifests für über 20 Microservices und Verwaltung der Deployments via ArgoCD
-     \item Automatisiertes Servermanagement für über 50 Nodes mit Ansible inklusive Firewall- und Benutzerkonfigurationen
-     \item Wartung von über 100 VMs und Sicherstellung der Verfügbarkeit von Kafka-, ClickHouse- und ScyllaDB-Clustern
+     \item Automatisierte ClickHouse-Backups und handhabte Schema-Migrationen in der Produktion
+     \item Erstellte einen automatisch skalierbaren RKE2-Cluster auf Hetzner mit Terraform und Ansible
+     \item Integrierte Cluster Autoscaler zur dynamischen Skalierung von Nodes basierend auf der Arbeitslast
+     \item Entwickelte einen Custom Pod Autoscaler (CPA) zur Skalierung von Workern basierend auf der Kafka Consumer Lag
+     \item Erstellte Kubernetes-Manifeste für über 20 Mikroservices und verwaltete Deployments über ArgoCD
+     \item Automatisierte die Serververwaltung für über 50 Nodes mit Ansible, einschließlich Firewall- und Benutzer-Setups
+     \item Wartete über 100 VMs und stellte die Verfügbarkeit von Kafka-, ClickHouse- und ScyllaDB-Clustern sicher
  \end{subsection}
 
- \begin{subsection}{Universität Teheran}{DevOps-Engineer}{Jul 2022 -- Jun 2023}{}
-     \item Bereitstellung eines HPC-Clusters mit über 20 Nodes mithilfe von Terraform, Ansible, Slurm, Singularity und Nvidia Enroot
-     \item Optimierung von GPU-Workloads für über 10 Forschende durch Integration von Nvidia Enroot mit Slurm via Nvidia Pyxis
-     \item Verwaltung von Rechten und Quotas für über 200 Benutzer sowie Einrichtung von mehr als 5 ressourcenspezifischen Queues
-     \item Aufbau eines Monitorings mit Grafana zur Überwachung der Clusterressourcen und Workloads
+ \begin{subsection}{Universität Teheran}{DevOps Engineer}{Juli 2022 -- Juni 2023}{}
+     \item Provisionierte einen 20+ Node HPC-Cluster mit Terraform, Ansible, Slurm, Singularity und Nvidia Enroot
+     \item Optimierte GPU-Workloads für über 10 Forscher durch Integration von Nvidia Enroot mit Slurm über Nvidia Pyxis
+     \item Verwaltete Berechtigungen und Quoten für über 200 Benutzer und erstellte über 5 ressourcenspezifische Warteschlangen für Jobs
+     \item Implementierte einen Grafana-Monitoring-Stack zur Überwachung von Cluster-Ressourcen und Workloads
  \end{subsection}
 
- \begin{subsection}{Pishgam Vira}{DevOps-Engineer}{Mär 2022 -- Jun 2022}{}
-     \item Bereitstellung von Docker Swarm Clustern und Datenbankservern mit Ansible in über 3 Umgebungen
-     \item Erstellung von Docker Compose Manifests für vereinfachte Deployments
-     \item Einrichtung von CI/CD-Pipelines für über 5 Repositories mit GitHub Actions
-     \item Automatisierung der Versionierung mit semantic-release
+ \begin{subsection}{Pishgam Vira}{DevOps Engineer}{März 2022 -- Juni 2022}{}
+     \item Provisionierte Docker Swarm-Cluster und Datenbankserver mit Ansible in über 3 Umgebungen
+     \item Erstellte Docker Compose-Manifeste für optimierte Deployments
+     \item Richtete CI/CD-Pipelines für über 5 Repositories mit GitHub Actions ein
+     \item Automatisierte die Versionierung mit semantic-release
  \end{subsection}
 
- \begin{subsection}{Mobtaker Darya}{Full-Stack-Entwickler \& DevOps-Engineer}{Nov 2019 -- Jun 2022}{}
-     \item Wartung und Weiterentwicklung des CCS-Projekts mit über 50 Berichten mittels Crystal Reports und SQL Server
-     \item Entwicklung des Shaahin-Projekts mit ReactJS-Frontend und Hasura/PostgreSQL-Backend
-     \item Implementierung von CI/CD-Pipelines mit GitLab CI und Docker, IaC mit Terraform und Ansible
-     \item Serverbereitstellung mit Kubernetes sowie Erstellung von Manifests und Helm-Charts
+ \begin{subsection}{Mobtaker Darya}{Full-stack Entwickler \& DevOps Engineer}{Nov 2019 -- Juni 2022}{}
+     \item Wartete und entwickelte das CCS-Projekt, das über 50 Berichte mit Crystal Reports und SQL Server generierte
+     \item Entwickelte das Shaahin-Projekt mit einem ReactJS-Frontend und einem Hasura/PostgreSQL-Backend
+     \item Implementierte CI/CD-Pipelines mit GitLab CI und Docker, IaC mit Terraform und Ansible
+     \item Provisionierte Server mit Kubernetes, schrieb Manifeste und verpackte sie in Helm Charts
  \end{subsection}
 
- \begin{subsection}{ChaM (Chapar Messenger)}{Gründer \& Lead Developer}{Dez 2013 -- Aug 2018}{}
-     \item Design und Entwicklung einer Audio-/Video-Messaging-Plattform mit C, Erlang und Java
-     \item Implementierung von P2P-Verbindungen und Nutzung von Cassandra/ScyllaDB für das Chat-Datenmanagement
-     \item Erstellung eines Desktop-Clients mit Qt/QML (C++) und einer Android-App mit Java und JNI
-     \item Integration von FFMPEG für Audio-/Video-Streaming mit nativen APIs
-     \item Full-Stack-Entwicklung inkl. Serverinfrastruktur und Client-Interfaces
+ \begin{subsection}{ChaM (Chapar Messenger)}{Gründer \& Leitender Entwickler}{Dez 2013 -- Aug 2018}{}
+     \item Entwarf und entwickelte eine Audio-/Video-Messaging-Plattform mit C, Erlang und Java
+     \item Implementierte P2P-Verbindungen und nutzte Cassandra/ScyllaDB für die Chat-Datenverwaltung
+     \item Erstellte einen Desktop-Client mit Qt/QML (C++) und eine Android-App mit Java und JNI
+     \item Integrierte FFMPEG für Audio-/Video-Streaming mit nativen APIs
+     \item Verwaltete die Full-Stack-Entwicklung, einschließlich Server-Infrastruktur und Client-Interfaces
  \end{subsection}
 \end{section}
 
 \sectiontable{Technische Fähigkeiten}{
     \entry{Programmiersprachen}{C/C++, C\#, Java, JavaScript, TypeScript, Python, Erlang, Golang, MATLAB}
-    \entry{Storage \& Datenbanken}{PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB, ClickHouse, RabbitMQ, Kafka, Redis, Minio}
-    \entry{Container-Orchestrierung}{Podman, Docker, DockerCompose, DockerSwarm, Kubernetes (K3s, RKE2, EKS), Helm, Nomad}
-    \entry{High Performance Computing}{Slurm, SunGridEngine, Rocks Cluster, Nvidia Enroot, Nvidia Pyxis, Singularity, Apptainer}
-    \entry{Infrastructure \& Cloud}{Terragrunt, Terraform, Ansible, Packer, ESXi, OpenStack, Hetzner Cloud, Amazon Web Services}
-    \entry{Monitoring \& Alerting}{Grafana, GrafanaOnCall, Prometheus, Promtail, OpenTelemetry, Loki, Mimir, Tempo, Alloy}
+    \entry{Speicher \& Datenbanken}{PostgreSQL, MSSQL, MySQL, SQLite, ScyllaDB, ClickHouse, RabbitMQ, Kafka, Redis, MinIO}
+    \entry{Container-Orchestrierung}{Podman, Docker, Docker Compose, Docker Swarm, Kubernetes (K3s, RKE2, EKS), Helm, Nomad}
+    \entry{High Performance Computing}{Slurm, Sun Grid Engine, Rocks Cluster, Nvidia Enroot, Nvidia Pyxis, Singularity, Apptainer}
+    \entry{Infrastruktur \& Cloud}{Terragrunt, Terraform, Ansible, Packer, ESXi, OpenStack, Hetzner Cloud, GCP, AWS}
+    \entry{Überwachung \& Alarmierung}{Grafana, GrafanaOnCall, Prometheus, Promtail, OpenTelemetry, Loki, Mimir, Tempo, Alloy}
     \entry{CI/CD \& Automatisierung}{DroneCI, GitlabCI, TravisCI, Github Actions, Azure Pipelines, ArgoCD, GitOps}
 }
 
-\begin{section}{Bildung}
- \begin{subsectionnobullet}{M.Sc. in Informatik}{Universität Teheran}{Sep 2021 -- Aug 2024}{}
-     \item Masterarbeit: Anfallserkennung aus multikanaligem EEG mittels Graph Neural Networks
+\begin{section}{Ausbildung}
+ \begin{subsectionnobullet}{M.Sc in Informatik}{Universität Teheran}{Sep 2021 -- Aug 2024}{}
+     \item Abschlussarbeit: Epilepsie-Erkennung aus Mehrkanal-EEG mithilfe von Graph Neural Networks
  \end{subsectionnobullet}
- \begin{subsectionnobullet}{B.Sc. in Informatik}{Kharazmi Universität}{Sep 2016 -- Jan 2021}{}
-     \item Abschluss mit sehr guten Leistungen
+ \begin{subsectionnobullet}{B.Sc in Informatik}{Kharazmi Universität}{Sep 2016 -- Jan 2021}{}
+     \item Abschluss mit sehr guter akademischer Leistung
  \end{subsectionnobullet}
 \end{section}
 
