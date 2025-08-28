@@ -73,7 +73,54 @@ function Published() {
             </Card>
             <Card
                 date=""
-                title="Terraform Community Modules"
+                title="Ansible Roles"
+                subtitle="Open Source"
+                location=""
+            >
+                <ul>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/ansible-role-swarm"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>ansible-role-swarm</b>
+                        </a>
+                        : Installs Docker and bootstraps a Swarm with
+                        managers/workers, overlay network, and prune cron
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/ansible-role-swarm"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/ckoliber/ansible-role-wireguard"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <b>ansible-role-wireguard</b>
+                        </a>
+                        : Installs and configures WireGuard Site-to-Site VPN on
+                        multiple servers
+                        <Link
+                            className="ml-2"
+                            href="https://github.com/ckoliber/ansible-role-wireguard"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={faExternalLink} />
+                        </Link>
+                    </li>
+                </ul>
+            </Card>
+            <Card
+                date=""
+                title="Terraform Modules"
                 subtitle="Open Source"
                 location=""
             >
@@ -169,43 +216,6 @@ function Published() {
                         <Link
                             className="ml-2"
                             href="https://github.com/ckoliber/terraform-module-ansible"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FontAwesomeIcon icon={faExternalLink} />
-                        </Link>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/ckoliber/ansible-role-swarm"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <b>ansible-role-swarm</b>
-                        </a>
-                        : Installs Docker and bootstraps a Swarm with
-                        managers/workers, overlay network, and prune cron
-                        <Link
-                            className="ml-2"
-                            href="https://github.com/ckoliber/ansible-role-swarm"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FontAwesomeIcon icon={faExternalLink} />
-                        </Link>
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/ckoliber/ansible-role-wireguard"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <b>ansible-role-wireguard</b>
-                        </a>
-                        : Installs and configures a WireGuard VPN with peers
-                        <Link
-                            className="ml-2"
-                            href="https://github.com/ckoliber/ansible-role-wireguard"
                             target="_blank"
                             rel="noreferrer"
                         >
