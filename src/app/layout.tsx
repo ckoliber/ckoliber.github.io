@@ -21,33 +21,33 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://ckoliber.dev"),
-    title: "Mohammad Hossein Nemati",
+    metadataBase: new URL("https://hoomaanx.me"),
+    title: "Hoomaan Nemati",
     description: "Personal website",
     icons: {
         icon: "/images/favicon.ico",
     },
     keywords: [
-        "ckoliber",
+        "hoomaanx",
         "KoLiBer",
         "Nemati",
         "blog",
         "personal",
         "portfolio",
-        "Mohammad Hossein Nemati",
+        "Hoomaan Nemati",
         "computer science",
         "biology",
         "cloud",
     ],
     openGraph: {
         type: "website",
-        title: "Mohammad Hossein Nemati",
+        title: "Hoomaan Nemati",
         description: "Personal website",
     },
     twitter: {
         card: "summary",
-        title: "Mohammad Hossein Nemati",
-        creator: "@ckoliber",
+        title: "Hoomaan Nemati",
+        creator: "@hoomaanx",
         description: "Personal website",
     },
 };
@@ -122,7 +122,7 @@ function Footer() {
             <span>
                 <Link
                     className="text-inherit m-4"
-                    href={`mailto:ckoliber@gmail.com`}
+                    href={`mailto:hoomaanx@gmail.com`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -130,7 +130,7 @@ function Footer() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://www.linkedin.com/in/ckoliber/`}
+                    href={`https://www.linkedin.com/in/hoomaanx/`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -138,7 +138,7 @@ function Footer() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://github.com/ckoliber`}
+                    href={`https://github.com/hoomaanx`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -149,7 +149,7 @@ function Footer() {
             <Text manager="decipher" easing="outSine">
                 © Copyright 2024 •{" "}
                 <Link
-                    href="https://github.com/ckoliber/ckoliber.github.io"
+                    href="https://github.com/hoomaanx/hoomaanx.github.io"
                     target="_blank"
                     rel="noreferrer"
                 >

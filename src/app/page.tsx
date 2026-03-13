@@ -15,7 +15,7 @@ import {
 function Home() {
     return (
         <Hero id="home" image="/images/hero.jpg">
-            <Text as="h1">Mohammad Hossein Nemati</Text>
+            <Text as="h1">Hoomaan Nemati</Text>
             <Text manager="decipher" as="b">
                 Senior DevOps Engineer. Architecting Scalable & Automated
                 Infrastructure.
@@ -23,7 +23,7 @@ function Home() {
             <span>
                 <Link
                     className="text-inherit m-4"
-                    href={`mailto:ckoliber@gmail.com`}
+                    href={`mailto:hoomaanx@gmail.com`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -31,7 +31,7 @@ function Home() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://www.linkedin.com/in/ckoliber/`}
+                    href={`https://www.linkedin.com/in/hoomaanx/`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -39,7 +39,7 @@ function Home() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://github.com/ckoliber`}
+                    href={`https://github.com/hoomaanx`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -47,7 +47,7 @@ function Home() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://gitlab.com/ckoliber`}
+                    href={`https://gitlab.com/hoomaanx`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -152,7 +152,7 @@ function About() {
                         <div className="flex flex-col md:flex-row justify-between md:items-center">
                             <div className="mb-4 md:mb-0">
                                 <Link
-                                    href={`https://www.linkedin.com/in/ckoliber/`}
+                                    href={`https://www.linkedin.com/in/hoomaanx/`}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -160,11 +160,11 @@ function About() {
                                         className="mr-2"
                                         icon={faLinkedin}
                                     />
-                                    Mohammad Hossein Nemati
+                                    Hoomaan Nemati
                                 </Link>
                                 <br />
                                 <Link
-                                    href={`mailto:ckoliber@gmail.com`}
+                                    href={`mailto:hoomaanx@gmail.com`}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -172,12 +172,12 @@ function About() {
                                         className="mr-2"
                                         icon={faEnvelope}
                                     />
-                                    ckoliber@gmail.com
+                                    hoomaanx@gmail.com
                                 </Link>
                             </div>
                             <div>
                                 <Link
-                                    href="/assets/Mohammad_Hossein_Nemati_CV_en.pdf"
+                                    href="/assets/Hoomaan_Nemati_CV_en.pdf"
                                     target="_blank"
                                 >
                                     <Frame
