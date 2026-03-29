@@ -318,7 +318,7 @@ function Experiences() {
                         programming in C (OOC){" "}
                         <Link
                             className="ml-2"
-                            href="https://github.com/hoomaanx/ooc_lecture"
+                            href="https://github.com/ckoliber/ooc_lecture"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -330,7 +330,7 @@ function Experiences() {
                         and OpenGL programming in C{" "}
                         <Link
                             className="ml-2"
-                            href="https://github.com/hoomaanx/opengl"
+                            href="https://github.com/ckoliber/opengl"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -354,7 +354,7 @@ function Experiences() {
                         Organized and managed homework assignments for students
                         <Link
                             className="ml-2"
-                            href="https://github.com/hoomaanx/Phy97Sources"
+                            href="https://github.com/ckoliber/Phy97Sources"
                             target="_blank"
                             rel="noreferrer"
                         >

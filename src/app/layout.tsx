@@ -21,15 +21,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://hoomaanx.me"),
+    metadataBase: new URL("https://ckoliber.me"),
     title: "Hoomaan Nemati",
     description: "Personal website",
     icons: {
         icon: "/images/favicon.ico",
     },
     keywords: [
-        "hoomaanx",
-        "KoLiBer",
+        "ckoliber",
+        "Hoomaan",
         "Nemati",
         "blog",
         "personal",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary",
         title: "Hoomaan Nemati",
-        creator: "@hoomaanx",
+        creator: "@ckoliber",
         description: "Personal website",
     },
 };
@@ -122,7 +122,7 @@ function Footer() {
             <span>
                 <Link
                     className="text-inherit m-4"
-                    href={`mailto:hoomaanx@gmail.com`}
+                    href={`mailto:ckoliber@gmail.com`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -130,7 +130,7 @@ function Footer() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://www.linkedin.com/in/hoomaanx/`}
+                    href={`https://www.linkedin.com/in/ckoliber/`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -138,7 +138,7 @@ function Footer() {
                 </Link>
                 <Link
                     className="text-inherit m-4"
-                    href={`https://github.com/hoomaanx`}
+                    href={`https://github.com/ckoliber`}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -149,7 +149,7 @@ function Footer() {
             <Text manager="decipher" easing="outSine">
                 © Copyright 2024 •{" "}
                 <Link
-                    href="https://github.com/hoomaanx/hoomaanx.github.io"
+                    href="https://github.com/ckoliber/ckoliber.github.io"
                     target="_blank"
                     rel="noreferrer"
                 >
