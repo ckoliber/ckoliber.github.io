@@ -35,7 +35,7 @@
         "arwes": "1.0.0-alpha.23",
         "autoprefixer": "^10.4.19",
         "motion": "^10.18.0",
-        "next": "^15.2.4",
+        "next": "^16.0.0",
         "next-mdx-remote": "^5.0.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
@@ -48,7 +48,7 @@
         "@types/react-dom": "^19.1.1",
         "@types/react-headroom": "^3.2.3",
         "eslint": "^9.24.0",
-        "eslint-config-next": "^15.2.4",
+        "eslint-config-next": "^16.0.0",
         "postcss": "^8.4.38",
         "postcss-functions": "^4.0.2",
         "typescript": "^5.8.3"
