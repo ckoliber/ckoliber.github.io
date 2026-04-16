@@ -36,7 +36,7 @@
         "autoprefixer": "^10.4.19",
         "motion": "^10.18.0",
         "next": "^15.2.4",
-        "next-mdx-remote": "^5.0.0",
+        "next-mdx-remote": "^6.0.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "react-headroom": "^3.2.1",
