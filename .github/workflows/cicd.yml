@@ -21,7 +21,6 @@ jobs:
 
       - run: mise run init
       - run: mise run build
-      - run: cp .github/CNAME out
 
       - uses: xu-cheng/latex-action@v4
         with:
