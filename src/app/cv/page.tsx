@@ -14,7 +14,40 @@ function Experiences() {
         Work Experiences
       </Text>
       <Card
-        date="May 2022 -- Present"
+        date="Nov 2025 -- Present"
+        title="Gridfuse.com"
+        subtitle="DevOps Engineer (Full-time)"
+        location="Leipzig, Germany"
+      >
+        <ul>
+          <li>
+            Set up SNMP monitoring for hardware devices across multiple regions
+          </li>
+          <li>
+            Built Grafana dashboards for infrastructure, network devices, logs,
+            and metrics
+          </li>
+          <li>Deployed and managed OpenWebUI integrated with OpenRouter</li>
+          <li>
+            Improved CI/CD and developer experience using mise across CI, IDE,
+            and CDE
+          </li>
+          <li>
+            Introduced self-hosted Mend Renovate and replaced legacy Renovate
+            pipelines
+          </li>
+          <li>
+            Operated Kubernetes platforms using GitLab CI, Helm, Argo CD, and
+            AWS ECR
+          </li>
+          <li>
+            Supported network security hardening and infrastructure compliance
+            tasks
+          </li>
+        </ul>
+      </Card>
+      <Card
+        date="May 2022 -- Oct 2025"
         title="Visiwise.co"
         subtitle="Senior DevOps Engineer (Full-time)"
         location="Calgary, Canada"
