@@ -1,12 +1,12 @@
-# KoLiBer
+# Website
 
-KoLiBer is a Next.JS application which is the source code of my personal website.
+This is a Next.JS application which is the source code of my personal website.
 
 ## Installation
 
 Install the NodeJS binary on your system:
 
--   [NodeJS](https://nodejs.org/en/download/)
+- [NodeJS](https://nodejs.org/en/download/)
 
 Now, use command bellow to install dependencies:
 

@@ -1,39 +1,30 @@
 {
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.formatOnSave": true,
-    "editor.fontLigatures": true,
-    "editor.detectIndentation": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.tabWidth": 4,
-    "[tex]": {
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
-    },
-    "[latex]": {
-        "editor.defaultFormatter": "James-Yu.latex-workshop"
-    },
-    "latex-workshop.formatting.latex": "latexindent",
-    "latex-workshop.latex.autoBuild.run": "onSave",
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "latexmk",
-            "tools": ["latexmk"]
-        }
-    ],
-    "latex-workshop.latex.tools": [
-        {
-            "name": "latexmk",
-            "command": "latexmk",
-            "args": [
-                "-xelatex",
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "%DOC%"
-            ]
-        }
-    ]
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[tex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-xelatex",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ]
 }

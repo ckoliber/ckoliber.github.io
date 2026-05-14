@@ -1,12 +1,24 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended"],
-    "dependencyDashboard": true,
-    "enabledManagers": ["npm"],
-    "packageRules": [
-        {
-            "matchPackageNames": ["arwes", "@arwes/**"],
-            "enabled": false
-        }
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":dependencyDashboard"],
+  "enabledManagers": ["npm", "mise", "github-actions"],
+  "packageRules": [
+    {
+      "description": "Automerge minor and patch updates after one day",
+      "matchUpdateTypes": ["minor", "patch"],
+      "minimumReleaseAge": "1 days",
+      "automerge": true
+    },
+    {
+      "description": "Automerge all GitHub Actions updates after one day",
+      "matchManagers": ["github-actions"],
+      "minimumReleaseAge": "1 days",
+      "automerge": true
+    },
+    {
+      "description": "Disable updates for Arwes packages",
+      "matchPackageNames": ["arwes", "@arwes/**"],
+      "enabled": false
+    }
+  ]
 }
