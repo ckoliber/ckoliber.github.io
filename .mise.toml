@@ -1,5 +1,5 @@
 [tools]
-node = "22.22.3"
+node = "24.15.0"
 
 [tasks.init]
 run = "npm install --legacy-peer-deps"
