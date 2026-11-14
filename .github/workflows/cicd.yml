@@ -42,7 +42,8 @@ jobs:
         mise run node:build
         gh run download "$GITHUB_RUN_ID" -n pdf -D out/assets
         if [ "$GITHUB_EVENT_NAME" = push ]; then
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           npx gh-pages@6.3.0 -d out --nojekyll --cname www.ckoliber.dev \
-            -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" \
             -r "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
         fi
