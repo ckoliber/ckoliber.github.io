@@ -2,56 +2,47 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  cicd:
+  latex:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: jdx/mise-action@v5
-        with:
-          version: 2026.10.14
-      - uses: actions/cache@v6
-        with:
-          path: node_modules/
-          key: ${{ hashFiles('package-lock.json') }}
-
-      - run: mise run init
-      - run: mise run build
-
       - uses: xu-cheng/latex-action@v4
         with:
-          root_file: main.tex
-          working_directory: private/CV_en
+          root_file: |
+            private/CV_en/main.tex
+            private/CV_de/main.tex
+            private/CL_en/main.tex
+            private/CL_de/main.tex
+          work_in_root_file_dir: true
           latexmk_use_xelatex: true
-      - run: cp private/CV_en/main.pdf out/assets/Hoomaan_Nemati_CV_en.pdf
-
-      - uses: xu-cheng/latex-action@v4
+      - run: |
+          mkdir pdf
+          for d in CV_en CV_de CL_en CL_de; do cp private/$d/main.pdf pdf/Hoomaan_Nemati_$d.pdf; done
+      - uses: actions/upload-artifact@v7
         with:
-          root_file: main.tex
-          working_directory: private/CV_de
-          latexmk_use_xelatex: true
-      - run: cp private/CV_de/main.pdf out/assets/Hoomaan_Nemati_CV_de.pdf
+          name: pdf
+          path: pdf/
 
-      - uses: xu-cheng/latex-action@v4
-        with:
-          root_file: main.tex
-          working_directory: private/CL_en
-          latexmk_use_xelatex: true
-      - run: cp private/CL_en/main.pdf out/assets/Hoomaan_Nemati_CL_en.pdf
-
-      - uses: xu-cheng/latex-action@v4
-        with:
-          root_file: main.tex
-          working_directory: private/CL_de
-          latexmk_use_xelatex: true
-      - run: cp private/CL_de/main.pdf out/assets/Hoomaan_Nemati_CL_de.pdf
-
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-          cname: www.ckoliber.dev
+  cicd:
+    needs: latex
+    uses: ckoliber/dotfiles/.github/workflows/mise.yml@main
+    permissions:
+      contents: write
+      actions: read
+    with:
+      cache-tools: npm
+      script: |
+        mise run node:deps
+        mise run node:build
+        gh run download "$GITHUB_RUN_ID" -n pdf -D out/assets
+        if [ "$GITHUB_EVENT_NAME" = push ]; then
+          npx gh-pages@6.3.0 -d out --nojekyll --cname www.ckoliber.dev \
+            -u "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" \
+            -r "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+        fi
