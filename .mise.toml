@@ -6,7 +6,7 @@ task_config.includes = [
 ]
 
 [tools]
-node = "22.23.3"
+node = "22.23.5"
 
 [tasks."node:deps"]
 run = "npm install --legacy-peer-deps"
